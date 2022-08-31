@@ -1,0 +1,3223 @@
+﻿
+html, html a {
+    text-decoration: none !important;
+    text-rendering: geometricprecision;
+}
+a {
+}
+body {
+    color: #333333;
+    font-family: regular;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #333333;
+    font-weight: normal;
+    margin-top: 0;
+}
+.container {
+}
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none !important;
+}
+.header {
+    border-top: 5px solid #333333;
+}
+.logo {
+}
+.logo a {
+}
+.logo a svg {
+    margin-top: 9px;
+    width: 63px;
+}
+.mainmenu {
+}
+.toplinks {
+}
+.menu .navbar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin-top: 32px;
+}
+.menu .navbar-collapse {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 0;
+}
+.menu .navbar-collapse .nav {
+}
+.menu .navbar-collapse .nav li {
+}
+.menu .navbar-collapse .nav > li > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #333333;
+    font-family: bold;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 10px 9px;
+    transition: all 0.45s ease-in-out 0s;
+}
+.menu .navbar-collapse .nav > li.active > a, .menu .navbar-collapse .nav > li:hover > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.navbar-header {
+    display: none;
+}
+.header .dropdown-menu {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.6);
+    left: -34px;
+    min-width: 135px;
+    padding-bottom: 0;
+    padding-top: 0;
+    top: 42px;
+}
+.header .dropdown-menu li {
+}
+.header .dropdown-menu li a {
+    border: medium none;
+    color: #333333;
+    font-family: regular;
+    font-size: 12px;
+    padding: 11px 16px;
+    text-align: left;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in 0s;
+}
+.header .dropdown-menu li a:hover {
+    background: #333333 none repeat scroll 0 0 !important;
+    color: #ffffff !important;
+}
+.carousel-fade .carousel-inner .item {
+    min-height: 400px;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0px, 0px, 0px);
+}
+.menu {
+    float: right;
+    padding-left: 42px;
+    padding-right: 0;
+}
+.navbar-nav > li:last-child {
+}
+.menu .navbar-collapse .nav > li > a:hover {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.toplinks {
+    float: right;
+    position: relative;
+    text-align: right;
+}
+.toplinks > div {
+    float: right;
+    margin-top: 41px;
+    overflow: hidden;
+}
+.toplinks > div > a {
+    color: #222222;
+    display: inline-block;
+    float: left;
+    height: 24px !important;
+    margin-right: 17px;
+    min-height: 23px;
+    overflow: hidden;
+}
+.toplinks > div > a svg {
+}
+.signin svg {
+    height: 33px;
+    margin-top: -2px;
+    width: 24px;
+}
+.search svg {
+    height: 62px;
+    margin-left: -18px;
+    margin-top: -13px;
+    width: 62px;
+}
+.bag svg {
+    margin-top: 1px;
+    width: 22px !important;
+}
+.toplinks > div > a svg path {
+}
+.signin svg path {
+}
+.search svg path {
+}
+.bag svg path {
+}
+.country svg {
+}
+.country svg path {
+}
+.country svg g {
+}
+.country {
+    border-radius: 3px;
+    height: 23px;
+    overflow: hidden;
+    width: 29px;
+}
+.language {
+    border: 2px solid #222222;
+    border-radius: 4px;
+    color: #333333;
+    font-family: dinbold;
+    line-height: 5px;
+    padding: 4px;
+}
+.signin {
+    margin-right: 5px !important;
+}
+.search {
+    margin-left: 3px;
+    margin-right: 10px !important;
+    width: 23px;
+}
+.bag {
+}
+.toplinks > div > a:last-child {
+    margin-right: 0;
+}
+.footer {
+    background: #333333 none repeat scroll 0 0;
+    overflow: hidden;
+}
+.footertoplinks {
+}
+.footertoplinks a {
+    color: #ffffff;
+    float: left;
+    font-family: bold;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin: 18px 0;
+    padding: 5px 39px;
+    text-transform: uppercase;
+}
+.footertoplinks a:first-child {
+    padding-left: 0 !important;
+}
+.footertoplinks a:last-child {
+    float: right;
+    padding-right: 0 !important;
+}
+.footerbottom {
+}
+.footerlogo {
+    border-right: 1px solid #3c3c3c;
+    padding-bottom: 17px;
+    padding-left: 13px;
+    padding-top: 20px;
+}
+.applinks {
+    border-right: 1px solid #3c3c3c;
+    padding-top: 20px;
+}
+.socialpayicon {
+    padding-left: 0;
+}
+.footerlogo > a {
+    display: inline-block;
+    float: left;
+    height: 85px;
+    transition: all 0.2s ease 0s;
+    width: 85px;
+}
+.copyright {
+    display: none !important;
+}
+.footerlogo:hover > span {
+}
+.footerlogo > div {
+    float: left;
+    margin-left: 14px;
+    width: 67%;
+}
+.footerlogo > div h2 {
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+.footerlogo > div p {
+    color: #585858;
+    font-family: regular;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 0;
+}
+.footerlogo > div span, .copyright {
+    color: #8a8a8a;
+    display: block;
+    font-family: regular;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+}
+.appslinkIcon {
+}
+.applestore {
+    transition: all 0.2s ease 0s;
+}
+.googleplay {
+    float: right !important;
+    padding-right: 4px;
+    transition: all 0.2s ease 0s;
+}
+.applestore:hover {
+}
+.googleplay:hover {
+}
+.appslinkIcon a {
+    color: #717171;
+    float: left;
+    width: 50%;
+}
+.appslinkIcon a span {
+    color: #717171;
+    font-family: regular;
+    font-size: 11px;
+    transition: all 0.25s ease-in 0s;
+}
+.appslinkIcon a p {
+    color: #717171;
+    font-family: regular;
+    font-size: 16px;
+    text-align: left;
+    transition: all 0.25s ease-in 0s;
+}
+.newletter {
+    clear: both;
+    min-height: 36px;
+    position: relative;
+}
+.newletter input {
+    background: #393939 none repeat scroll 0 0;
+    border: 1px solid #393939;
+    border-radius: 20px;
+    color: #dadada;
+    font-size: 11px;
+    left: 0;
+    padding-left: 45px;
+    padding-top: 6px;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+.newletter input:hover {
+    background: #454545 none repeat scroll 0 0;
+}
+.newletter span {
+    color: #757575;
+    font-weight: 900;
+    left: 18px;
+    position: absolute;
+    top: 6px;
+    z-index: 100;
+}
+.newletter button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    z-index: 100;
+}
+.newletter button i {
+    color: #efefef;
+}
+.socialIcon a {
+    color: #717171;
+    display: inline-block;
+    float: left;
+    font-size: 21px;
+    padding: 16px 37px;
+    width: 25%;
+}
+.socialIcon a i {
+    transition: all 0.3s ease 0s;
+}
+.PayIcon {
+}
+.PayIcon a {
+    border-top: 1px solid #3c3c3c;
+    display: inline-block;
+    float: left;
+    height: 60px;
+    text-align: center;
+    width: 25%;
+}
+.PayIcon a svg {
+    width: 62%;
+}
+.PayIcon a svg g {
+}
+.PayIcon a svg g path {
+}
+.PayIcon a:first-child {
+}
+.PayIcon a:nth-child(2) {
+}
+.PayIcon a:nth-child(3) {
+    padding-top: 17px;
+}
+.PayIcon a:first-child svg {
+}
+.PayIcon a:nth-child(2) svg {
+}
+.PayIcon a:nth-child(3) svg {
+    background: #717171 none repeat scroll 0 0 !important;
+    fill: #ff0000 !important;
+    width: 44% !important;
+}
+.PayIcon a:last-child svg {
+    width: 79% !important;
+}
+.PayIcon a:first-child svg path {
+    fill: #717171 !important;
+}
+.PayIcon a:nth-child(2) svg path {
+    fill: #333333;
+}
+.PayIcon a:nth-child(3) svg path {
+    fill: #333333 !important;
+}
+.PayIcon a:last-child svg path {
+    fill: #333333 !important;
+}
+.PayIcon a:nth-child(4) {
+}
+.PayIcon a:first-child:hover {
+}
+.PayIcon a:nth-child(2):hover {
+}
+.PayIcon a:nth-child(3):hover {
+}
+.PayIcon a:nth-child(4):hover {
+}
+.socialIcon {
+    overflow: hidden;
+}
+.socialIcon > div {
+    overflow: hidden;
+}
+.mainslider {
+}
+.mainslider a.left {
+    background: rgba(0, 0, 0, 0) url("../images/style31.png") no-repeat scroll center center;
+    width: 10%;
+}
+.mainslider a.right {
+    background: rgba(0, 0, 0, 0) url("../images/style30.png") no-repeat scroll center center;
+    width: 10%;
+}
+.mainslider .item {
+}
+.mainslider .item p {
+    background-size: cover !important;
+    margin-bottom: 0;
+    min-height: 400px;
+}
+.classification {
+    margin-bottom: 4px;
+    margin-top: 1px;
+}
+.classification > div {
+    float: left;
+    margin-right: 3px;
+    margin-top: 8px;
+    padding: 0 3px;
+    position: relative;
+    width: 16.4%;
+}
+.classification > div a {
+    background: #333333 none repeat scroll 0 0;
+    display: block;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease-in 0s;
+    width: 100%;
+}
+.classification > div:first-child {
+    margin-left: 0;
+    padding-left: 2px;
+}
+.classification > div:hover a {
+    background: #656565 none repeat scroll 0 0;
+}
+.classification > div:hover a svg path {
+}
+.classification > div p {
+    bottom: 26px;
+    color: #ffffff;
+    font-family: regular;
+    font-size: 15px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+.classification > div:hover p {
+}
+.classification > div:first-child a {
+}
+.classification > div:nth-child(2) a {
+}
+.classification > div:nth-child(3) a {
+}
+.classification > div:nth-child(4) a {
+}
+.classification > div:nth-child(5) a {
+}
+.classification > div:nth-child(5) a svg {
+    width: 63px;
+}
+.classification > div:nth-child(6) a {
+}
+.classification > div:nth-child(7) a {
+}
+.classification > div:nth-child(7) a svg {
+    margin-top: 17px;
+    width: 100%;
+}
+.classification > div:nth-child(8) a {
+}
+.classification > div:nth-child(9) a {
+}
+.classification > div:nth-child(10) a {
+}
+.classification > div:nth-child(10) a svg {
+    width: 70px;
+}
+.classification > div:nth-child(11) a {
+}
+.classification > div:nth-child(11) a svg {
+    margin-top: 16px;
+    width: 77px;
+}
+.classification > div:first-child:hover a {
+}
+.classification > div:nth-child(2):hover a {
+}
+.classification > div:nth-child(3):hover a {
+}
+.classification > div:nth-child(4):hover a {
+}
+.classification > div:nth-child(5):hover a {
+}
+.classification > div:nth-child(6):hover a {
+}
+.classification > div:nth-child(7):hover a {
+}
+.classification > div:nth-child(8):hover a {
+}
+.classification > div:nth-child(9):hover a {
+}
+.classification > div:nth-child(10):hover a {
+}
+.classification > div:nth-child(11):hover a {
+}
+.classification > div:last-child a {
+}
+.classification > div:last-child a svg {
+    margin-top: 28px;
+    width: 59px;
+}
+.classification > div:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    width: 16.6%;
+}
+.imagesLinks {
+    margin-top: 5px;
+}
+.imagesLinks > div {
+    overflow: hidden;
+    padding: 0 3px;
+    position: relative;
+}
+.imagesLinks > div a {
+    background-size: cover;
+    display: inline-block;
+    min-height: 240px;
+    width: 100%;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-right: 0;
+}
+.imagesLinks > div > p {
+    left: 0;
+    min-height: 240px;
+    padding: 0 3px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.imagesLinks > div > p span {
+    background: rgba(0, 0, 0, 0.48) none repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    min-height: 240px;
+    width: 100%;
+}
+.sponser {
+    margin-bottom: 22px;
+    margin-top: 17px;
+}
+.sponser > a {
+    float: left;
+    height: 126px;
+    line-height: 111px;
+    text-align: center;
+    transition: all 0.36s ease-out 0s;
+    width: 12.4%;
+}
+.sponser > a img {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    opacity: 0.317;
+    transition: all 0.36s ease-out 0s;
+}
+.sponser > a:last-child {
+    background: #f0f0f0 none repeat scroll 0 0;
+    color: #e0e0e0;
+    float: right;
+    font-family: regular;
+    font-size: 44px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+.sponser > a:last-child span {
+    display: block;
+    width: 100%;
+}
+.sponser > a:last-child p {
+    display: none;
+}
+.sponser > a:hover img {
+    opacity: 0.87;
+}
+.sponser > a:last-child:hover {
+    background: #bfbfbf none repeat scroll 0 0;
+    color: #ffffff;
+}
+li.dropdown ul > li:first-child {
+}
+.menu li.dropdown.open a.dropdown-toggle {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.classification > div:nth-child(6) {
+    margin-right: 0;
+    padding-right: 0;
+    width: 16.6%;
+}
+.classification > div:nth-child(7) {
+    margin-left: 0;
+    padding-left: 2px;
+}
+.classification > div svg {
+    display: block;
+    fill: #ffffff;
+    float: none;
+    margin: 23px auto auto;
+    width: 70px;
+}
+.classification > div svg g {
+}
+.classification > div path {
+    fill: #ffffff !important;
+    transition: all 0.3s ease 0s;
+}
+.appslinkIcon > a:hover span, .appslinkIcon > a:hover, .appslinkIcon > a:hover p {
+    color: #aeaeae;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.navbar-default .navbar-toggle span {
+    background-color: #000000 !important;
+    display: block;
+    height: 3px !important;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle span {
+    border-radius: 0 !important;
+    transition: all 0.15s ease-in 0s;
+}
+.navbar-default .navbar-toggle span {
+}
+.navbar-default .navbar-toggle:focus span, .navbar-default .navbar-toggle:hover span {
+}
+.tp-bannertimer {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+    height: 5px;
+    margin-left: 2px;
+    position: absolute;
+    top: 0;
+    transition: all 0s ease 0s;
+    width: 0;
+    z-index: 200;
+}
+.tp-bannertimer-frames {
+    animation: 8s ease 0s normal none infinite running mymove;
+}
+@keyframes mymove {
+0% {
+    width: 0;
+}
+100% {
+    width: 99.9%;
+}
+}
+.carousel-fade .carousel-control {
+    opacity: 0;
+    transition: all 0.15s ease-in 0.25s;
+    z-index: 2;
+}
+.mainslider:hover .carousel-fade .carousel-control {
+    opacity: 1;
+    transition-delay: 0.01s;
+}
+.transition-timer-carousel-progress-bar {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+    height: 5px;
+    margin: 0 0 0 2px;
+    position: absolute;
+    top: 0;
+    transition: all 0s ease 0s;
+    width: 0;
+    z-index: 200;
+}
+.imagesLinks > div:first-child p, .imagesLinks > div:nth-child(3) p {
+    padding-left: 2px;
+    padding-right: 6px;
+}
+.imagesLinks > div:nth-child(2) p, .imagesLinks > div:nth-child(4) p {
+    padding-right: 0;
+}
+#rect12672 {
+    fill: #717171 !important;
+}
+.PayIcon a:nth-child(2) svg > g > g > path:first-child {
+    fill: #717171;
+}
+.PayIcon a:nth-child(2) svg > g > g > path:nth-child(2) {
+    fill: #717171;
+}
+polygon .PayIcon a:first-child svg path, .PayIcon a:first-child svg polygon {
+    fill: #717171 !important;
+}
+.PayIcon a:nth-child(2) svg polygon {
+    fill: #333333;
+}
+.appslinkIcon > a {
+}
+.appslinkIcon > a > div {
+    overflow: hidden;
+}
+.appslinkIcon > a > div > div:first-child {
+    float: left;
+    margin-right: 7px;
+}
+.appslinkIcon > a > div > div:last-child {
+    float: left;
+}
+.applestore svg {
+    float: left;
+    height: 37px;
+    transition: all 0.25s ease-in 0s;
+    width: 30px;
+}
+.googleplay svg {
+    height: 32px;
+    margin-top: 5px;
+    width: 29px;
+}
+.appslinkIcon a svg path {
+    fill: #585858 !important;
+    transition: all 0.25s ease-in 0s;
+}
+.appslinkIcon a:hover svg path {
+    fill: #ebebeb !important;
+}
+.googleplay > div {
+    float: right;
+    overflow: hidden;
+}
+.footerlogo > a svg {
+}
+.socialIcon a:hover i {
+    color: #ebebeb;
+}
+.footerlogo > a svg path {
+    transition: all 0.25s ease-in 0s;
+}
+.footerlogo > a:hover svg path:nth-child(2), .footerlogo > a:hover svg path:nth-child(4), .footerlogo > a:hover svg path:nth-child(5), .footerlogo > a:hover svg path:nth-child(6), .footerlogo > a:hover svg path:nth-child(7) {
+    fill: #ebebeb !important;
+}
+.classification a > div {
+    height: 80px;
+    margin: auto;
+    width: 70px;
+}
+.search > div {
+}
+.Signin {
+    position: relative;
+    text-align: center;
+}
+.Signup {
+    padding-bottom: 100px;
+    text-align: center;
+}
+.Signin > div, .Signup > div {
+    margin: auto;
+    padding-top: 65px;
+    width: 328px;
+}
+.Signin > div > h2, .Signup > div > h2 {
+    color: #222222;
+    font-family: bold;
+    font-size: 20px;
+}
+.Signin > div > p, .Signup > div > p {
+    color: #222222;
+    font-family: regular;
+    font-size: 14px;
+    margin-top: 29px;
+}
+.signStyle {
+    margin-top: 70px;
+}
+.signStyle > .form-group {
+    margin-top: 30px;
+    text-align: left;
+}
+.signStyle > .form-group label {
+    color: #222222;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 17px;
+}
+.signStyle > .form-group input {
+    border: 1px solid #ededed;
+    border-radius: 0;
+    box-shadow: none;
+    height: 57px;
+}
+.signStyle > .checkbox {
+    margin-bottom: 22px;
+    margin-top: 22px;
+    text-align: left;
+}
+.signStyle > .checkbox label {
+    color: #222222;
+    font-size: 14px;
+}
+.signStyle > .checkbox input {
+}
+.signStyle > button, .tellusmore > button {
+    background: #333333 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #f9f9fb;
+    font-size: 18px;
+    padding: 15px 0;
+    transition: all 0.15s ease-in 0s;
+    width: 100%;
+}
+.signStyle > a {
+    color: #222222;
+    display: block;
+    font-size: 14px;
+    margin-top: 35px;
+    text-decoration: underline !important;
+    text-transform: uppercase;
+}
+.Signin > span, .telluscontent > span {
+    background: #f0f0f0 none repeat scroll 0 0;
+    display: block;
+    height: 370px;
+    position: absolute;
+    right: -1px;
+    top: 170px;
+    width: 1px;
+}
+.Signup .signStyle > a {
+    font-size: 11px;
+    margin: 35px -30px 0;
+    text-decoration: none !important;
+}
+.Signup > div > p {
+    margin: 29px -24px 0;
+    text-align: center;
+}
+.signStyle > .checkbox label span {
+    border: 1px solid #e8e8e8;
+    display: block;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 13px;
+    z-index: 100;
+}
+.contactMap {
+    height: 370px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+#googleMap {
+    left: 0;
+    min-height: 554px;
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    z-index: 0 !important;
+}
+.containMap {
+    position: relative;
+}
+.containMap > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 35px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 157px;
+    width: 100%;
+    z-index: 100;
+}
+.contact {
+}
+.contact > h2 {
+    color: #333333;
+    font-family: bold;
+    font-size: 22px;
+    margin-top: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact > p {
+    color: #949494;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 19px;
+    padding: 0 350px;
+    text-align: center;
+}
+.contactInfo {
+    margin-top: 30px;
+    overflow: hidden;
+}
+.contactform {
+    margin-top: 30px;
+    padding-bottom: 100px;
+    padding-right: 48px;
+}
+.contactform .form-group {
+    margin-bottom: 18px;
+    padding: 0 6px;
+}
+.contactform .form-group input {
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: none;
+    height: 53px;
+}
+.contactform .form-group textarea {
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: none;
+    height: 275px !important;
+    width: 100% !important;
+}
+.contactform .form-group button {
+    background: #333333 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #f9f9fb;
+    font-size: 18px;
+    padding: 15px 0;
+    transition: all 0.15s ease-in 0s;
+    width: 100%;
+}
+.contactInfo > a {
+    display: block;
+    overflow: hidden;
+}
+.contactInfo > a img {
+    max-width: 100%;
+    width: 100%;
+}
+.contactInfo > div {
+    padding-bottom: 20px;
+}
+.contactInfo > div:last-child {
+    border-top: 1px solid #eef1f3;
+}
+.contactInfo > div p {
+    color: #2c2e37;
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.contactInfo > div span {
+    color: #949494;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.containcontactform {
+    max-width: 1136px;
+}
+.containmap {
+    padding: 0;
+}
+.contactform .form-group input:hover, .contactform .form-group textarea:hover, .contactform .form-group input:focus, .contactform .form-group textarea:focus {
+    border: 2px solid #333333;
+}
+.imgheader {
+}
+.imgheader a {
+    display: block;
+    margin-top: 24px;
+    overflow: hidden;
+}
+.imgheader a img {
+    margin-top: 6px;
+    width: 100%;
+}
+.categorypath {
+}
+.myaccount-container {
+}
+.myaccount-content {
+    border: 2px solid #e6e6e6;
+    margin-bottom: 40px;
+}
+.path > P {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+.path {
+}
+.accountname {
+    padding-left: 65px;
+    padding-top: 38px;
+}
+.accountbutton {
+    padding-right: 65px;
+    text-align: right;
+}
+.accountbutton > button {
+    border: 1px solid #cecece;
+    border-radius: 0;
+    font-size: 12px;
+    height: 40px;
+    margin-top: 57px;
+    width: 213px;
+}
+.accountbutton > button:first-child {
+    color: #333333;
+    margin-right: 9px;
+}
+.accountbutton > button:last-child {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.head-account {
+    background: #ebebeb none repeat scroll 0 0;
+}
+.tabheadaccount {
+    height: 40px;
+    margin-top: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+.tabheadaccount > ul {
+    border: medium none;
+    display: inline-block;
+    float: none;
+    margin: auto;
+}
+.tabheadaccount > ul > li {
+}
+.tabheadaccount > ul > li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 3px solid #ebebeb;
+    color: #676767;
+    font-size: 14px;
+    margin: 0 22px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+}
+.accountname P {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #898989;
+    float: left;
+    font-size: 26px;
+    height: 80px;
+    line-height: 76px;
+    margin-right: 13px;
+    text-align: center;
+    width: 80px;
+}
+.accountname > div {
+    overflow: hidden;
+}
+.accountname > div > div {
+}
+.accountname > div > div > h2 {
+    font-family: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+.accountname > div > div > a {
+    color: #e13b55;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .nav-tabs > li > a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #ebebeb #ebebeb #676767;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+}
+.moreinformation {
+    min-height: 650px;
+}
+.tellusmore {
+    margin: 64px auto auto;
+    width: 445px;
+}
+.telluscontent {
+    overflow: hidden;
+    position: relative;
+}
+.tellusmore .form-group {
+}
+.tellusmore .form-group label {
+    color: #333333;
+    float: left;
+    font-family: light;
+    font-size: 14px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.tellusmore .form-group input {
+    border: 1px solid #ededed;
+    border-radius: 0;
+    box-shadow: none;
+    height: 40px;
+}
+.tellusmore > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.country-input {
+}
+.country-input input {
+    float: left;
+}
+.country-input input:nth-child(1) {
+    margin-right: 10px;
+    width: 146px;
+}
+.country-input input:nth-child(2) {
+    margin-right: 10px;
+    width: 80px;
+}
+.country-input input:nth-child(3) {
+    width: 80px;
+}
+.tellusmore > button {
+    color: #ffffff;
+    float: right;
+    font-size: 12px;
+    height: 42px;
+    line-height: 6px;
+    margin-bottom: 120px;
+    margin-top: 74px;
+    width: 210px;
+}
+.changeemail {
+    margin: 64px auto auto;
+    width: 445px;
+}
+.changeemail > .form-group > div:first-child {
+    padding: 0;
+}
+.changeemail > button {
+    margin-bottom: 71px !important;
+    margin-top: 8px !important;
+}
+.accountbutton > button:first-child:hover {
+    background: #ffffff none repeat scroll 0 0;
+}
+.Signin > span, .telluscontent > span {
+    height: 200px;
+    right: 0;
+    top: 133px;
+}
+.changeemail > p {
+    margin-left: -15px;
+}
+.telluscontent > span {
+    right: 0;
+}
+.paymentmethod {
+}
+.headpayment {
+}
+.whitebutton {
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    height: 39px;
+}
+.whitebutton:hover {
+    transition: all 0.15s ease-in 0s;
+}
+.headpayment > div {
+    padding: 0 57px;
+}
+.headpayment p {
+    color: #333333;
+    font-family: bold;
+    font-size: 18px;
+    margin-bottom: 22px;
+    margin-top: 52px;
+    text-transform: uppercase;
+}
+.headpayment button {
+    color: #333333;
+    float: right;
+    font-family: bold;
+    font-size: 13px;
+    margin-top: 39px;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in 0s;
+    width: 255px;
+}
+.address {
+    overflow: hidden;
+    padding: 20px 42px;
+}
+.addresstext {
+}
+.addresstext h3 {
+    color: #333333;
+    font-family: bold;
+    font-size: 16px;
+}
+.addresstext p {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.isdefualt {
+}
+.isdefualt p {
+    color: #afafaf;
+    font-family: bold;
+    font-size: 16px;
+    line-height: 125px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.makedefault {
+    padding-right: 0;
+    text-align: right;
+}
+.makedefault button {
+    color: #868686;
+    font-family: bold;
+    font-size: 13px;
+    margin-top: 45px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in 0s;
+}
+.editaddress {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right;
+}
+.editaddress button {
+    color: #333333;
+    font-size: 13px;
+    margin-top: 45px;
+    padding-left: 12px;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in 0s;
+    width: 123px;
+}
+.editaddress button:first-child {
+    margin-right: 7px;
+}
+.editaddress button:last-child {
+    padding-left: 14px;
+}
+.paymentmethod .address:nth-child(2n) {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.paymentmethod .address:nth-child(2n+1) {
+    background: #fdfdfd none repeat scroll 0 0;
+}
+.editaddress svg {
+    float: left;
+    margin-left: 11px;
+}
+.editaddress svg g {
+    fill: #3b3b3c;
+}
+.editaddress button:last-child svg {
+    height: 19px;
+    margin-left: 6px;
+    width: 23px;
+}
+.addnewaddress {
+    margin: auto;
+}
+.addressfill > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 18px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.addressfill > span {
+    color: #666666;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 13px;
+}
+.addressfill > div {
+    margin-bottom: 20px;
+}
+.addressfill > div input {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 13px;
+    height: 45px;
+}
+.bootstrap-select {
+    width: 100% !important;
+}
+.bootstrap-select > .dropdown-toggle {
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    height: 45px;
+    line-height: 40px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.addressfill .bs-caret {
+    border-left: 1px solid #e5e5e5;
+    display: inline-block;
+    height: 100%;
+    width: 9%;
+}
+.addressfill .caret {
+    right: 18px !important;
+}
+.addressfill .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    width: 90%;
+}
+.addressfill .bootstrap-select.btn-group .dropdown-toggle .caret {
+    margin-top: -2px;
+}
+.addressfill .btn-default.active .bs-caret, .addressfill .btn-default.focus .bs-caret, .addressfill .btn-default:active .bs-caret, .addressfill .btn-default:focus .bs-caret, .addressfill .btn-default:hover .bs-caret, .addressfill .open > .dropdown-toggle.btn-default .bs-caret {
+    border-left: 1px solid #d5d5d5;
+}
+.addressfill1 {
+    padding-right: 52px;
+}
+.addressfill2 {
+    padding-left: 52px;
+    padding-top: 127px;
+}
+.addressfill .whitebutton {
+    float: right;
+    font-family: bold;
+    font-size: 13px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 250px;
+}
+.addnewaddress {
+    display: none;
+}
+.accountcridet {
+    text-align: center;
+}
+.accountcridet p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 28px;
+    margin: 140px auto auto;
+    width: 48%;
+}
+.accountcridet p span {
+    font-family: bold;
+}
+.accountcridet button {
+    color: #333333;
+    font-size: 13px;
+    margin-top: 30px;
+    width: 213px;
+}
+.addfund {
+    padding: 0 50px;
+    text-align: center;
+}
+.addfund > div {
+    display: inline-block;
+    margin-bottom: 33px;
+    margin-right: 13px;
+    width: 112px;
+}
+.addfund > div > p {
+    background: #ebebeb none repeat scroll 0 0;
+    color: #333333;
+    font-size: 16px;
+    height: 112px;
+    margin-bottom: 0;
+    padding-top: 27px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.addfund > div > p span {
+    display: block;
+    line-height: 27px;
+}
+.addfund .whitebutton {
+    margin-left: 0;
+    margin-top: 11px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.addfund > p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 21px;
+    margin-top: 50px;
+}
+.addfund {
+    display: none;
+}
+.dashboard {
+    margin-top: 110px !important;
+    overflow: hidden;
+}
+.informationDash {
+}
+.dashboard > div > h2 {
+    color: #333333;
+    font-family: bold;
+    font-size: 21px;
+    margin-bottom: 7px;
+}
+.dashboard > div > span {
+    background: #333333 none repeat scroll 0 0;
+    display: block;
+    height: 2px;
+    width: 100px;
+}
+.informationDash > div {
+    margin-top: 15px;
+}
+.informationDash > div > p, .paymentDash > div > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 14px;
+}
+.informationDash > div > p span, .paymentDash > div > span {
+    color: #333333;
+    font-family: regular;
+    font-size: 14px;
+}
+.dashboard .whitebutton {
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 211px;
+}
+.orderDash {
+}
+.paymentDash {
+    margin-bottom: 60px;
+}
+.addressDash > div > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 17px;
+}
+.addressDash > div > span {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+}
+.orderDash table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    width: 100%;
+}
+.orderDash table tr {
+    height: 60px;
+}
+.orderDash table td {
+    border-bottom: 2px solid #f0f0f0;
+    border-top: 2px solid #f0f0f0;
+    text-align: center;
+}
+.colordash {
+    width: 10%;
+}
+.colordash p {
+    background: #f23535 none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 11px;
+    margin: auto;
+    width: 11px;
+}
+.numdash {
+    width: 20%;
+}
+.numdash p {
+    color: #424242;
+    font-family: bold;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.datedash {
+    width: 20%;
+}
+.datedash p {
+    color: #222222;
+    font-size: 12px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+.datedash span {
+    color: #222222;
+    font-family: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.itemdash {
+    width: 15%;
+}
+.itemdash p {
+    color: #222222;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.linkdash {
+    width: 13%;
+}
+.linkdash a {
+    color: #f0f0f0;
+    display: block;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 0 10px;
+    text-align: center;
+}
+.paymentDash > div {
+    margin-top: 17px;
+}
+.informationDash > div > p {
+}
+.paymentDash > div > p {
+    margin-bottom: 6px;
+}
+.paymentDash > div > p:nth-child(3) {
+    margin-top: 40px;
+}
+.dashboard > div > div {
+    height: 190px;
+}
+.itemdash span {
+    color: #222222;
+    font-size: 14px;
+}
+.orderOn .colordash p {
+    background: #5fb33a none repeat scroll 0 0;
+}
+.orderOn .linkdash a {
+    color: #337ab7;
+}
+.orderDash table td:first-child {
+    border-left: 2px solid #f0f0f0;
+}
+.orderDash table td:last-child {
+    border-right: 2px solid #f0f0f0;
+}
+.orderDash > span {
+    margin-bottom: 5px;
+}
+.orderDash > div {
+    height: 200px !important;
+}
+.gifttype {
+}
+.gifttype > p {
+    font-size: 17px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.gifttype > ul {
+    list-style: outside none none;
+    overflow: hidden;
+    padding-left: 0;
+}
+.gifttype > ul li {
+    float: left;
+    margin-bottom: 17px;
+    margin-right: 17px;
+}
+.gifttype > ul li p {
+    border: 1px solid #cccccc;
+    height: 39px;
+    line-height: 32px;
+    margin: 0;
+    text-align: center;
+    transition: all 0.15s ease-in 0s;
+    width: 82px;
+}
+.gifttype > div {
+}
+.gifttype > div > button {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+    float: left;
+    font-size: 13px;
+    margin-left: 16px;
+    margin-top: 40px;
+    width: 182px;
+}
+.giftquantity {
+    overflow: hidden;
+}
+.giftquantity > div {
+    background: rgba(0, 0, 0, 0) url("../images/style32.png") no-repeat scroll right top;
+    float: right;
+    height: 340px;
+    margin-right: 19px;
+    margin-top: 66px;
+    position: relative;
+    width: 570px;
+}
+.giftquantity p {
+    background: #ffffff none repeat scroll 0 0;
+    float: right;
+    font-family: bold;
+    font-size: 35px;
+    height: 50px;
+    line-height: 45px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+}
+.gifttype > ul li p:hover {
+    background: #333333 none repeat scroll 0 0;
+    border: 1px solid #333333;
+    color: #ffffff;
+}
+.spinner {
+    border-radius: 0;
+    float: left;
+    margin-top: 40px;
+    position: relative;
+    width: 82px;
+}
+.spinner input {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 13px;
+    height: 38px;
+    text-align: center;
+}
+.spinner button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #b0b0b0;
+    font-family: light;
+    font-size: 19px;
+    line-height: 21px;
+    position: absolute;
+    z-index: 100;
+}
+.spinner button:nth-child(2) {
+    right: 0;
+    top: 0;
+}
+.spinner button:last-child {
+    font-size: 41px;
+    left: 0;
+    line-height: 16px;
+    top: 0;
+}
+.spinner button:hover, .spinner button:active, .spinner button:focus {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.gift {
+    overflow: hidden;
+}
+.ordertablecontain table {
+    width: 100%;
+}
+.ordertablecontain {
+    margin: auto;
+}
+.ordertablecontent {
+}
+.ordertablecontent > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 17px;
+    margin-top: 50px;
+}
+.ordertablecontent table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    width: 100%;
+}
+.ordertablecontent thead {
+    display: none;
+}
+.ordertablecontent tr {
+    height: 60px;
+}
+.ordertablecontent tbody {
+}
+.ordertablecontent td {
+}
+.ordertablecontent td p {
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+.ordertablecontent table td:first-child {
+    border-left: 1px solid #f0f0f0;
+}
+.ordertablecontent table td {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+}
+.ordertablecontent table td:last-child {
+    border-right: 1px solid #f0f0f0;
+}
+.ordertablecontent td[data-title="order no."] {
+    color: #222222;
+    font-family: bold;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+}
+.ordertablecontent td[data-title="Date"] {
+    color: #222222;
+    font-size: 14px;
+}
+.ordertablecontent td[data-title="Item no."], .ordertablecontent td[data-title="Price"] {
+    color: #222222;
+    font-size: 14px;
+}
+.ordertablecontent td[data-title="Delivery"] {
+    color: #ed3434;
+    font-family: bold;
+    font-size: 14px;
+}
+.ordertablecontent td[data-title="Details"] {
+    color: #337ab7;
+    font-size: 14px;
+}
+.DELIVERED {
+    color: #81a529 !important;
+    font-family: regular !important;
+}
+.whishlist {
+    margin: auto;
+}
+.wishpar > p {
+    color: #676767;
+    font-family: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 26px;
+    text-transform: uppercase;
+}
+.wishpar > span {
+    color: #676767;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+.productdetails {
+}
+.productdetails a {
+    width: 100%;
+}
+.productdetails a img {
+    width: 100%;
+}
+.productdetails > p {
+    color: #222222;
+    font-family: bold;
+    font-size: 14px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.productdetails > span {
+    color: #222222;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.productdetails > div {
+}
+.productdetails > div p {
+    float: left;
+}
+.productdetails > div span {
+    color: #d5364a;
+    display: inline-block;
+    float: left;
+    margin-left: 16px;
+}
+.newprice p {
+    text-decoration: line-through;
+}
+.whishlist .productdetails:last-child {
+    margin-bottom: 50px;
+}
+.reviworder {
+    margin-bottom: 150px;
+}
+.reviwordercontent {
+}
+.reviwordercontent > h2 {
+    color: #333333;
+    font-family: bold;
+    font-size: 26px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+}
+.headorder {
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.headorder > p {
+    color: #373737;
+    float: left;
+    font-family: bold;
+    font-size: 14px;
+}
+.headorder > span {
+    color: #373737;
+    display: inline-block;
+    float: right;
+    font-family: bold;
+    font-size: 14px;
+}
+.ordercontent {
+    border-bottom: 1px solid #f3f3f3;
+    margin-top: 15px;
+    padding-bottom: 7px;
+}
+.ordercontent > div {
+    overflow: hidden;
+}
+.ordercontent > div p {
+    color: #373737;
+    float: left;
+    font-size: 16px;
+    padding-left: 19px;
+}
+.ordercontent > div p span {
+    color: #d6a279;
+}
+.ordercontent > div > span {
+    color: #373737;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+}
+.bagtotal span {
+    color: #d6a279;
+}
+.paymenymethods {
+    margin-top: 40px;
+    overflow: hidden;
+}
+.paymenymethods p {
+    color: #373737;
+    font-family: bold;
+    font-size: 13px;
+}
+.blackbutton {
+    background: #333333 none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    color: #ffffff;
+    height: 39px;
+    transition: all 0.15s ease-in 0s;
+}
+.paymenymethods > div:first-child {
+    float: left;
+}
+.paymenymethods > div:last-child {
+    float: right;
+}
+.paymenymethods > div:last-child > div {
+    border: 1px solid #767676;
+    height: 39px;
+    padding: 8px 16px;
+    width: 400px;
+}
+.paymenymethods > div:last-child > div p {
+    color: #333333;
+    float: left;
+    font-family: bold;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.paymenymethods > div:last-child > div span {
+    color: #333333;
+    display: inline-block;
+    float: right;
+    font-family: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+.paymenymethods > div:last-child button {
+    margin-top: 15px;
+    width: 100%;
+}
+.paymenymethods svg {
+    float: left;
+    height: 73px;
+    margin-left: -11px;
+    margin-top: -28px;
+    width: 83px;
+}
+.brandimg {
+    padding: 0;
+}
+.brandimg .imgheader a {
+    background: rgba(0, 0, 0, 0) url("../images/img12.jpg") no-repeat scroll 0 0 / cover ;
+    color: #ffffff;
+    display: block;
+    font-size: 36px;
+    height: 280px;
+    line-height: 266px;
+    text-align: center;
+}
+.static {
+    margin-bottom: 90px;
+}
+.static .imgheader {
+}
+.static .imgheader p {
+    color: #2c2e37;
+    font-family: bold;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 0 290px;
+    text-align: center;
+}
+.static .imgheader > p:nth-child(2) {
+    margin-top: 2px;
+}
+.statictext {
+    margin-top: 30px;
+}
+.statictext > p {
+    color: #949494;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+.statictext > p span {
+    color: #2c2e37;
+    display: block;
+    font-family: bold;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.statictext > a {
+}
+.statictext > a img {
+}
+.categorypath {
+    margin-top: 26px;
+}
+.filterpath {
+}
+.filterpages {
+    margin-bottom: 26px;
+}
+.filterpath > button {
+    border: 2px solid #333333;
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: 34px;
+    width: 145px;
+}
+.filterpath span {
+    display: inline-block;
+    float: left;
+    line-height: 15px;
+    margin-left: 9px;
+}
+.filterpath svg {
+    float: left;
+    height: 25px;
+    margin-left: -9px;
+    margin-top: -5px;
+    width: 28px;
+}
+.filterpath > div {
+    float: left;
+    line-height: 34px;
+    margin-left: 26px;
+}
+.filterpath > div a {
+    color: #333333;
+    font-size: 13px;
+    margin-right: 7px;
+}
+.dropstyle .bootstrap-select {
+}
+.dropstyle .bootstrap-select > .dropdown-toggle {
+    border: 2px solid #333333;
+    border-radius: 0;
+    color: #333333;
+    font-size: 14px;
+    height: 34px;
+    line-height: 27px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.dropstyle .bs-caret {
+    border-left: medium none;
+    display: inline-block;
+    height: 100%;
+    width: 9%;
+}
+.dropstyle .caret {
+    right: 8px !important;
+}
+.dropstyle .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    width: 90%;
+}
+.dropstyle .bootstrap-select.btn-group .dropdown-toggle .caret {
+    margin-top: -3px;
+}
+.dropstyle .btn-default.active .bs-caret, .dropstyle .btn-default.focus .bs-caret, .btn-default:active .bs-caret, .dropstyle .btn-default:focus .bs-caret, .dropstyle .btn-default:hover .bs-caret, .dropstyle .open > .dropdown-toggle.btn-default .bs-caret {
+    border-left: 1px solid #d5d5d5;
+}
+.showinpage {
+    border: 2px solid #333333;
+    float: left;
+    height: 34px;
+    margin-right: 30px;
+    width: 174px;
+}
+.showinpage > p {
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: 100% !important;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.showinpage > p:first-child {
+    border-right: 1px solid #333333;
+    height: 34px;
+    margin-bottom: 0;
+    width: 54px;
+}
+.showinpage > p:last-child {
+    border-left: 1px solid #333333;
+    float: left;
+    height: 34px;
+    width: 69px;
+}
+.directpage {
+    float: left;
+}
+.directpage a {
+    color: #333333;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px 3px;
+}
+.productdate {
+    float: left !important;
+    margin-right: 30px;
+    width: 145px !important;
+}
+.selectperpage {
+    float: left !important;
+    height: 30px !important;
+    width: 44px !important;
+}
+.selectperpage .dropdown-toggle {
+    border: medium none !important;
+    height: 30px !important;
+    line-height: 28px !important;
+    padding: 5px 5px 5px 7px;
+}
+.filterpages > div {
+    float: right;
+}
+.selectperpage .dropstyle .caret {
+    right: 12px !important;
+}
+.accordioncontainer {
+}
+.accordioncontainer > div {
+    border: 1px solid #e3e3e3;
+    padding: 0;
+}
+.panel-group {
+}
+.panel {
+    border: medium none;
+    box-shadow: none;
+    margin-top: 0 !important;
+}
+.panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    padding: 0;
+}
+.panel-heading h4 {
+    background: #ededed none repeat scroll 0 0;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 15px;
+    position: relative;
+    transition: all 0.2s ease-in 0s;
+}
+.panel-heading h4 a {
+    display: block;
+    font-size: 13px;
+    height: 100%;
+    left: 15px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 94%;
+}
+.panel-heading h4 i {
+    color: #cecece;
+    float: right;
+    font-size: 10px;
+    padding: 13px 0;
+}
+.panel-collapse {
+}
+.panel-body {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: medium none !important;
+    padding: 0;
+}
+.panel-body a {
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    line-height: 37px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.accordioncontainer > div > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 20px;
+    padding: 17px 15px 0;
+}
+.addback {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+.Shoppingopt {
+    border-top: 1px solid #f5f5f5;
+}
+.shoppingoption {
+    padding-bottom: 60px;
+}
+.shoppingoption p {
+    font-size: 13px;
+    height: 40px;
+    margin: 0;
+    padding: 10px 15px;
+}
+.shoppingoption p a {
+    color: #333333;
+}
+.shoppingoption p span {
+    color: #000000;
+    float: right;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+}
+.prodcutcontainer {
+    padding: 0;
+}
+.prodcutcontainer .productdetails {
+    margin-bottom: 14px;
+}
+.searchfilter {
+}
+.searchfilter > h3 {
+    color: #333333;
+    font-family: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.searchfiltercontainer {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin-top: 12px;
+    min-height: 262px;
+    padding: 0;
+}
+.ui-helper-hidden-accessible {
+    display: none;
+}
+.filtertoken {
+    position: relative;
+}
+.filtertoken > div input {
+}
+.filtercategory {
+}
+.filtercategory > select {
+}
+.filtercategory .bootstrap-select > .dropdown-toggle {
+    height: 41px;
+    line-height: 35px;
+}
+.tokenfield {
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
+    box-shadow: none;
+    height: 41px;
+}
+.filtercategory .bootstrap-select > .dropdown-toggle {
+    border: 1px solid #d6d6d6;
+}
+.tokenfield .token {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d6d6d6;
+    border-radius: 11px;
+    box-sizing: border-box;
+    cursor: default;
+    display: inline-block;
+    font-size: 12px;
+    height: 22px;
+    line-height: 18px;
+    margin: 2px 9px 5px 0;
+    padding: 0 5px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.tokenfield .token .close {
+    line-height: 19px;
+    margin-left: 8px;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #212121;
+    font-weight: normal;
+}
+.ui-widget-content {
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
+}
+.ui-menu .ui-menu-item a {
+    color: #333333;
+    display: block;
+    font-family: regular;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 21px;
+    min-height: 0;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+.ui-menu .ui-menu-item a.ui-state-focus, .ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+    margin: 0;
+}
+.filtertoken > button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    height: 39px;
+    position: absolute;
+    right: 18px;
+    top: -2px;
+}
+.filtertoken > button:hover, .filtertoken > button:focus, .filtertoken > button:active {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+.filtertoken > button svg {
+    width: 25px;
+}
+.filtertoken > button svg g {
+    fill: #333333;
+}
+.pricerange {
+    margin-top: 33px;
+}
+.colorchoose {
+    margin-top: 33px;
+    padding-left: 87px;
+}
+.filterbutton {
+}
+#ex1Slider .slider-selection {
+    background: #bababa none repeat scroll 0 0;
+}
+.slider.slider-horizontal {
+    margin-top: 10px;
+    width: 100%;
+}
+.pricerange > p {
+    color: #333333;
+    font-size: 14px;
+}
+.slider-selection {
+    background: #7dc855 none repeat scroll 0 0 !important;
+}
+.slider.slider-horizontal .slider-track {
+    background: #dfdfdf none repeat scroll 0 0;
+    border-radius: 1px;
+    box-shadow: none;
+    height: 6px;
+}
+.slider-handle {
+    background: #7dc855 none repeat scroll 0 0;
+    border: 4px solid #ffffff;
+    height: 19px;
+    margin-top: -7px;
+    width: 19px;
+}
+.slider .tooltip-inner {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #333333;
+    font-size: 12px;
+}
+.slider .tooltip.bottom .tooltip-arrow {
+    display: none;
+}
+.slider .tooltip.bottom {
+    margin-top: 0;
+    padding: 0;
+}
+.colorgroup {
+}
+.colorgroup > p {
+    background: #39add1 none repeat scroll 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    float: left;
+    height: 42px;
+    margin-right: 17px;
+    margin-top: 6px;
+    text-align: center;
+    transition: all 0.2s ease-in 0s;
+    width: 42px;
+}
+.colorgroup > p svg {
+    display: none;
+    margin: 2px auto auto;
+    width: 23px;
+}
+.colorgroup > p svg path {
+    fill: #ffffff;
+}
+#blue {
+    background: #39add1 none repeat scroll 0 0;
+}
+#green {
+    background: #53bbb3 none repeat scroll 0 0;
+}
+#move {
+    background: #838cc7 none repeat scroll 0 0;
+}
+#yellow {
+    background: #f8e71c none repeat scroll 0 0;
+}
+#gray {
+    background: #5e6977 none repeat scroll 0 0;
+}
+.colorgroup > p:hover {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in 0s;
+}
+.resetfilter {
+    color: #333333;
+    margin-right: 20px;
+}
+.filterbutton button {
+    border: 1px solid #cfcfcf;
+    border-radius: 0;
+    float: right;
+    font-size: 14px;
+    height: 40px;
+    line-height: 23px;
+    margin-top: 71px;
+    text-transform: uppercase;
+    width: 170px;
+}
+.filterbutton button svg {
+    float: left;
+    height: 22px;
+    margin-top: 2px;
+}
+.applyfilter {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.resetfilter p {
+    color: #333333;
+}
+.applyfilter p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding-left: 42px;
+    padding-top: 4px;
+    text-align: left;
+}
+.filterproductdetails {
+    margin-top: 29px;
+}
+.filterproductdetails .productdetails {
+    margin-bottom: 27px;
+}
+.resetfilter:hover {
+    background: #ffffff none repeat scroll 0 0;
+}
+.applyfilter:hover {
+    background: #333333 none repeat scroll 0 0;
+}
+.odrerdetailscontent {
+    padding-right: 35px;
+}
+.productbuy {
+}
+.odrerdetailscontent > h2 {
+    color: #202020;
+    font-family: bold;
+    font-size: 26px;
+    margin-top: 57px;
+    text-transform: uppercase;
+}
+.odrerdetailscontent > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+}
+.orderstatus {
+    background: #f8f8f8 none repeat scroll 0 0;
+    height: 91px;
+    padding: 20px 15px;
+}
+.orderstatus > p {
+    background: #2aae61 none repeat scroll 0 0;
+    border-radius: 50%;
+    float: left;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+}
+.orderstatus > p svg {
+    margin-top: 8px;
+}
+.orderstatus > span {
+    color: #161616;
+    display: inline-block;
+    float: left;
+    font-family: bold;
+    font-size: 13px;
+    line-height: 50px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.orderstatus > span span {
+    font-family: regular;
+}
+.orderstatus > div {
+    float: left;
+    margin-left: 118px;
+    margin-top: 3px;
+    text-transform: uppercase;
+}
+.orderstatus > div > span {
+    color: #161616;
+    display: block;
+    font-family: bold;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.orderstatus > div > span span {
+    font-family: regular;
+}
+.shopaddress {
+}
+.shopaddress h3 {
+    color: #161616;
+    font-family: bold;
+    font-size: 13px;
+    margin-bottom: 12px;
+    margin-top: 35px;
+}
+.shopaddress div {
+}
+.shopaddress p {
+    color: #161616;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.productbuy {
+    margin-top: 94px;
+    padding-bottom: 100px;
+    padding-left: 0;
+}
+.productbuy > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.productbuy > div {
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+}
+.productbuy > div > img {
+    float: left;
+    height: 93px;
+    width: 70px;
+}
+.productbuydetails {
+    float: left;
+    margin-left: 20px;
+}
+.productbuydetails > p {
+    color: #4a4d55;
+    font-family: bold;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.productbuydetails > span {
+    color: #4a4d55;
+    font-size: 12px;
+}
+.productbuyprice {
+    margin-top: 5px;
+    overflow: hidden;
+}
+.productbuyprice > p {
+    color: #4a4d55;
+    float: left;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.productbuyprice > p:first-child {
+}
+.productbuyprice > p:last-child {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.productbuy .spinner {
+    margin-top: 0;
+    width: 72px;
+}
+.productbuy .spinner {
+    margin-top: 7px;
+}
+.productbuy .spinner input {
+    border: medium none;
+    font-size: 11px;
+}
+.productbuy .spinner input {
+    border: medium none;
+    font-size: 11px;
+    padding-left: 0;
+}
+.productbuy .spinner button:last-child {
+    font-size: 35px;
+    line-height: 20px;
+    padding-left: 0;
+}
+.productbuy .spinner button:nth-child(2) {
+    line-height: 25px;
+}
+.productbuydetails > button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    position: absolute;
+    right: -6px;
+    top: -2px;
+}
+.productbuydetails > button svg {
+    height: 26px;
+    width: 16px;
+}
+.totalbuy {
+}
+.totalbuy > div {
+    float: left;
+    padding: 10px 23px;
+    width: 100%;
+}
+.totalbuy > div > p {
+    color: #333333;
+    float: left;
+    font-size: 13px;
+    width: 50%;
+}
+.totalbuy > div > p:first-child {
+}
+.totalbuy > div > p:last-child {
+    text-align: center;
+}
+.totalbuy > div:last-child {
+    background: #f8f8f8 none repeat scroll 0 0;
+    height: 42px;
+}
+.totalbuy > div:last-child p {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+}
+.headpage {
+    color: #202020;
+    font-family: Bold;
+    font-size: 26px;
+    margin-top: 24px;
+}
+.CheckoutRegistered {
+}
+.CheckoutRegistered .productbuy {
+    margin-top: 21px;
+    padding-left: 15px;
+    padding-right: 0;
+}
+.glyogift {
+    border: 2px solid #f3f3f3;
+    margin-top: 30px;
+    min-height: 124px;
+    position: static !important;
+    text-transform: none !important;
+}
+.glyogift .checkbox {
+    background: #eeeeee none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    margin-left: 16px;
+    margin-top: 47px;
+    padding-top: 9px;
+    position: relative;
+    text-align: center;
+    width: 23px;
+}
+.glyogift .checkbox input {
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.glyogift .checkbox span {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: none;
+    height: 5px;
+    margin: auto;
+    transition: all 0.2s ease-in 0s;
+    width: 5px;
+}
+.glyogift .checkbox input:checked + span {
+    display: block;
+}
+.giftcontent {
+    background: rgba(0, 0, 0, 0) url("../images/img16.jpg") no-repeat scroll left center;
+    float: left;
+    margin-left: 17px;
+    margin-top: 11px;
+    min-height: 102px;
+    padding-left: 83px;
+    padding-top: 13px;
+}
+.giftcontent h3 {
+    color: #4a4d55;
+    font-family: bold;
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+.giftcontent p {
+    color: #4a4d55;
+    font-size: 13px;
+}
+.giftcontent span {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+}
+.shippingaddress {
+    padding-left: 95px;
+    padding-right: 65px;
+    padding-top: 21px;
+}
+.radiogroupcheck > p {
+    color: #333333;
+    font-family: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.radio {
+    margin-top: 30px !important;
+}
+.radio label {
+    color: #1f1f1f;
+    font-family: bold;
+    font-size: 11px;
+    line-height: 22px;
+    padding-left: 0;
+    width: 100%;
+}
+.radiogroupcheck .radio p {
+    background: #eeeeee none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    margin-bottom: 0;
+    margin-right: 17px;
+    padding-top: 8px;
+    position: relative;
+    text-align: center;
+    width: 23px;
+}
+.radiogroupcheck .radio input {
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.radiogroupcheck .radio p span {
+    background: #222222 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: none;
+    height: 6px;
+    margin: auto;
+    transition: all 0.2s ease-in 0s;
+    width: 6px;
+}
+.radiogroupcheck .radio input[type="radio"]:checked + span {
+    display: block;
+}
+.radio label > span {
+    color: #1f1f1f;
+    font-family: regular;
+}
+.shippingaddress .addressfill .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    width: 81%;
+}
+.shippingaddress .addressfill {
+    margin-top: 31px;
+}
+.halfRowinput {
+}
+.halfRowinput input {
+    float: left;
+    width: 47%;
+}
+.halfRowinput input:first-child {
+    margin-right: 6%;
+}
+.shippingmethod {
+    padding-left: 36px;
+    padding-top: 21px;
+}
+.paymentradio {
+    margin-top: 50px;
+}
+.paymentradio .radio {
+    margin-top: 20px !important;
+}
+.quartRowinput > div {
+    float: left;
+    margin-right: 6%;
+    width: 47%;
+}
+.quartRowinput > input {
+    float: left;
+    width: 47%;
+}
+.quartRowinput > div input {
+    float: left;
+    width: 48%;
+}
+.quartRowinput > div input:first-child {
+    margin-right: 2%;
+}
+.cardfill {
+    margin-top: 36px;
+}
+.statisticTotal {
+    margin-bottom: 31px;
+}
+.statisticTotal > div {
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    margin: 0 15px;
+    overflow: hidden;
+}
+.shoppingtotal {
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+.statisticTotal > div p {
+    display: inline-block;
+    float: none;
+    height: 100%;
+    line-height: 87px;
+    margin: auto;
+    overflow: hidden;
+}
+.statisticTotal > div p span {
+    color: #aaaaaa;
+    float: left;
+    font-size: 13px;
+}
+.statisticTotal > div p span:last-child {
+    color: #202020;
+    font-size: 18px;
+    line-height: 85px;
+    margin-left: 17px;
+}
+.totalall {
+}
+.totalall p {
+}
+.totalall p span {
+    color: #333333 !important;
+    font-family: bold;
+    font-size: 13px !important;
+}
+.totalall p span:last-child {
+    color: #212121 !important;
+    font-family: regular;
+    font-size: 26px !important;
+}
+.statisticTotal > div > div {
+    text-align: center;
+}
+.prceedchekout {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.prceedchekout > button {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    height: 46px;
+    margin: auto;
+    padding: 0 119px;
+}
+.CheckoutUnRegistered {
+}
+.CheckoutUnRegistered .productbuy {
+    padding-bottom: 42px;
+}
+.billingaddress {
+    margin-top: 36px;
+    padding: 0 30px 0 0;
+}
+.billingaddresscontent {
+    margin: auto;
+}
+.billingaddresscontent > div > p {
+    color: #333333;
+    font-size: 17px;
+    margin-bottom: 2px;
+    margin-top: 64px;
+}
+.billingaddresscontent > div > span {
+    color: #c8c8c8;
+    font-size: 13px;
+}
+.billingaddress > div {
+}
+.billingaddress .form-group label {
+    color: #333333;
+    float: left;
+    font-family: light;
+    font-size: 13px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.billingaddress .form-group input {
+    border: 1px solid #ededed;
+    border-radius: 0;
+    box-shadow: none;
+    height: 40px;
+    padding-bottom: 9px;
+}
+.billingaddress > div > .form-group {
+    margin-bottom: 24px;
+}
+.billingaddress .form-group .form-group {
+    margin-bottom: 0;
+}
+.billingaddress .bootstrap-select > .dropdown-toggle {
+    height: 41px;
+}
+.billingaddress .bootstrap-select .filter-option {
+    color: #929292;
+    font-size: 13px;
+}
+.billingaddress2 {
+    padding-left: 30px;
+    padding-right: 0;
+}
+.billingaddress .whitebutton {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffffff;
+    float: right;
+    padding: 0 42px;
+}
+.billingaddress2 .row > div:first-child {
+    padding: 0 0 0 10px;
+}
+.billingaddress2 .row > div:first-child {
+    padding: 0 0 0 10px;
+}
+.billingaddresscontent > div {
+}
+.gallaryslider {
+    margin-top: 34px;
+    padding-left: 24px;
+    padding-right: 0;
+}
+.headpath {
+    font-size: 12px;
+    margin-bottom: 19px;
+    margin-top: 40px;
+}
+.productDetails {
+    border: 1px solid #e3e3e3;
+    padding-bottom: 36px;
+}
+.lSSlideOuter.vertical {
+    padding-left: 127px !important;
+    padding-right: 0 !important;
+}
+.lSSlideOuter.vertical .lSGallery {
+    left: 0 !important;
+    position: absolute !important;
+    right: auto !important;
+    top: 0;
+}
+.productdetailschoose {
+    padding-left: 24px;
+    padding-right: 30px;
+    position: relative;
+}
+.productdetailschoose > a:first-child {
+    color: #43484d;
+    font-size: 14px;
+    position: absolute;
+    right: 26px;
+    top: 12px;
+}
+.companylogo {
+    color: #43484d;
+    display: block;
+    font-size: 14px;
+    margin-top: 34px;
+}
+.companylogo img {
+    float: left;
+}
+.companylogo span {
+    float: left;
+    margin-left: 9px;
+    margin-top: 59px;
+}
+.productdetailschoose > h1 {
+    clear: both;
+    color: #333333;
+    display: block;
+    float: left;
+    font-size: 38px;
+    margin-top: 19px;
+}
+.productdetailschoose > p {
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    padding-right: 40px;
+}
+.choosesize {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    margin-top: 8px;
+    padding: 0;
+    text-align: left;
+}
+.colorchoose > p, .choosesize > p, .shareproduct > p, .someproductdetails > h4 {
+    color: #43484d;
+    font-family: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.choosesize > span {
+    color: #53585d;
+    float: right;
+    font-size: 15px;
+    line-height: 58px;
+}
+.shareproduct {
+    margin-top: 10px;
+}
+.shareproduct > p {
+    float: left;
+}
+.shareproduct > div {
+    float: left;
+    margin-left: 8px;
+}
+.shareproduct > div a {
+    color: #43484d;
+    margin-left: 17px;
+}
+.shareproduct > div a i {
+}
+.quantityproduct {
+    border: 1px solid #7c7c7c;
+    float: left;
+    height: 54px;
+    margin-top: 26px;
+    position: relative;
+    width: 141px;
+}
+.quantityproduct > p {
+    background: #ffffff none repeat scroll 0 0;
+    color: #43484d;
+    font-size: 11px;
+    left: 6px;
+    padding: 4px;
+    position: absolute;
+    top: -11px;
+}
+.quantityproduct > spinner {
+}
+.addtobag {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    margin-left: 12px;
+    margin-top: 26px;
+    padding: 14px 27px 15px;
+    width: 189px;
+}
+.addtobag svg {
+    float: left;
+    margin-top: 1px;
+    width: 24px;
+}
+.addtobag svg path {
+    fill: #ffffff;
+}
+.someproductdetails {
+    margin-top: 33px;
+}
+.someproductdetails > h4 {
+    color: #43484d;
+    font-family: bold;
+    font-size: 16px;
+}
+.someproductdetails > p {
+    color: #43484d;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 7px;
+}
+.priceproduct {
+    margin-top: 6px;
+}
+.priceproduct > p:first-child {
+    color: #f03434;
+    float: left;
+    font-family: bold;
+    font-size: 26px;
+}
+.priceproduct > p:last-child {
+    color: #333333;
+    float: left;
+    font-size: 26px;
+    margin-left: 35px;
+    text-decoration: line-through;
+}
+.productdetailschoose .colorchoose {
+    margin-top: 15px;
+    padding-left: 0;
+}
+.choosesize .btn {
+    border: 1px solid #666666;
+    border-radius: 0;
+    height: 43px;
+    line-height: 38px;
+    margin-right: 18px;
+    margin-top: 8px;
+    padding: 0;
+    text-align: center;
+    width: 51px;
+}
+.choosesize .btn.active {
+    background: #333333 none repeat scroll 0 0;
+}
+.choosesize .btn span {
+    font-size: 16px;
+}
+.choosesize .btn.active span {
+    color: #ffffff;
+}
+.lSSlideWrapper {
+    padding-left: 10px;
+}
+.quantityproduct .spinner span {
+    float: left;
+    font-size: 12px;
+    margin-top: 17px;
+}
+.quantityproduct .spinner input {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 7px;
+    padding: 0;
+    width: 20px;
+}
+.quantityproduct .spinner button {
+    color: #333333;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.quantityproduct .spinner button:nth-child(3) {
+    right: 0;
+    top: 0;
+}
+.quantityproduct .spinner button:nth-child(4) {
+    left: auto;
+    right: 0;
+    top: 21px;
+}
+.quantityproduct .spinner {
+    margin-top: 0;
+    position: static;
+}
+.relatedItem {
+    margin-bottom: 50px;
+}
+.relatedItem .wishpar {
+}
+.relatedItem .wishpar p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+    .lSSlideWrapper > ul li img{
+         max-width:100%;
+         width:100%;
+    }

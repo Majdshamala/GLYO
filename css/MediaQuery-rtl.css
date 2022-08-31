@@ -1,0 +1,407 @@
+﻿
+@media (min-width: 1200px) {
+}
+@media (max-width: 1200px) {
+.classification > div:last-child {
+    width: 8.5%;
+}
+.classification > div p {
+    font-size: 12px;
+}
+.footerlogo > div span {
+    font-size: 13px;
+}
+.menu {
+    padding-right: 22px;
+}
+.footertoplinks a {
+    padding: 17px 15px;
+}
+.footerlogo > div {
+    width: 66%;
+}
+.socialIcon a {
+    padding: 16px 27px;
+}
+}
+@media (max-width: 992px) {
+.sponser > a img {
+    width: 57%;
+}
+.sponser > a {
+    height: 94px;
+    line-height: 91px;
+}
+.sponser > a:last-child {
+    font-size: 32px;
+    line-height: 30px;
+}
+.classification > div:first-child a {
+    background-size: 64% auto;
+}
+.classification > div:nth-child(2) a {
+    background-size: 59% auto;
+}
+.classification > div:nth-child(3) a {
+    background-size: 54% auto;
+}
+.classification > div:nth-child(4) a {
+    background-size: 48% auto;
+}
+.classification > div:nth-child(5) a {
+    background-size: 62% auto;
+}
+.classification > div:nth-child(6) a {
+    background-size: 74% auto;
+}
+.classification > div:nth-child(7) a {
+    background-size: 68% auto;
+}
+.classification > div:nth-child(8) a {
+    background-size: 47% auto;
+}
+.classification > div:nth-child(9) a {
+    background-size: 62% auto;
+}
+.classification > div:nth-child(10) a {
+    background-size: 63% auto;
+}
+.classification > div:nth-child(11) a {
+    background-size: 65% auto;
+}
+.classification > div {
+    width: 8.6%;
+}
+.classification > div:last-child {
+    width: 9.4%;
+}
+.classification > div p {
+    font-size: 9px;
+}
+.menu .navbar {
+    margin-bottom: 0;
+}
+.applinks {
+    border-left: 1px solid #3c3c3c;
+    min-height: 134px;
+    padding-top: 20px;
+}
+.socialpayicon {
+    padding-bottom: 20px;
+}
+.menu {
+    padding-right: 0;
+}
+.navbar-nav > li:last-child {
+    margin-top: 0;
+}
+.menu {
+    padding-right: 14px;
+}
+.footertoplinks a {
+    font-size: 12px;
+    padding: 5px 0;
+    width: 25%;
+}
+.footertoplinks {
+    padding-bottom: 11px;
+    padding-top: 9px;
+}
+.footerbottom {
+    margin-top: 12px;
+}
+.footertoplinks a:first-child {
+    padding-right: 0;
+}
+.footertoplinks a:last-child {
+    padding-left: 0;
+}
+.footerlogo {
+    border-bottom: 1px solid #3c3c3c;
+    border-left: medium none;
+    padding-bottom: 19px;
+    padding-top: 12px;
+}
+}
+@media (max-width: 992px) and (min-width: 767px) {
+.classification > div a {
+    min-height: 73px;
+}
+}
+@media (max-width: 767px) {
+.sponser > a:last-child span {
+    display: inline-block;
+    width: auto;
+}
+.sponser > a:last-child p {
+    display: block;
+}
+.sponser > a:last-child {
+    display: block !important;
+    font-size: 22px;
+    width: 100%;
+}
+.sponser > a {
+    display: none;
+}
+.classification > div p {
+    font-size: 11px;
+    margin-bottom: 6px;
+    padding: 6px 5px;
+}
+.classification > div:nth-child(6), .classification > div:nth-child(7), .classification > div:nth-child(8), .classification > div:nth-child(9), .classification > div:nth-child(10), .classification > div:nth-child(11) {
+    width: 16.6%;
+}
+.classification > div:last-child {
+    float: right;
+}
+.classification > div:first-child, .classification > div:nth-child(2), .classification > div:nth-child(3), .classification > div:nth-child(4), .classification > div:nth-child(5) {
+    width: 19.9%;
+}
+.classification > div {
+    margin-left: 0;
+}
+.classification > div {
+    width: 33.1%;
+}
+.classification > div:first-child a {
+    background-size: 40% auto;
+}
+.classification > div:nth-child(2) a {
+    background-size: 34% auto;
+}
+.classification > div:nth-child(3) a {
+    background-size: 25% auto;
+}
+.classification > div:nth-child(4) a {
+    background-size: 26% auto;
+}
+.classification > div:nth-child(5) a {
+    background-size: 37% auto;
+}
+.classification > div:nth-child(6) a {
+    background-size: 51% auto;
+}
+.classification > div:nth-child(7) a {
+    background-size: 48% auto;
+}
+.classification > div:nth-child(8) a {
+    background-size: 29% auto;
+}
+.classification > div:nth-child(9) a {
+    background-size: 38% auto;
+}
+.classification > div:nth-child(10) a {
+    background-size: 45% auto;
+}
+.classification > div:nth-child(11) a {
+    background-size: 47% auto;
+}
+.menu .navbar {
+    margin-bottom: 16px;
+    margin-top: 19px;
+}
+.mainslider a.left, .mainslider a.right {
+    width: 20%;
+}
+.applinks {
+    border-left: medium none;
+}
+.appslinkIcon a {
+    float: right;
+    width: 48%;
+}
+.applestore {
+    background: rgba(0, 0, 0, 0) url("../images/style28.png") no-repeat scroll left top;
+    padding-right: 0;
+    padding-left: 49px;
+    text-align: left;
+}
+.googleplay {
+    width: 48% !important;
+}
+.footerlogo > div p {
+    line-height: 23px;
+    margin-bottom: 3px;
+}
+.socialIcon {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.socialIcon > div {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.socialIcon a {
+    width: 25%;
+}
+.footertoplinks a {
+    font-size: 10px;
+    padding: 4px 0;
+    text-align: center;
+    width: 33.3%;
+}
+.footerlogo > span {
+    display: inline-block;
+    float: none;
+    margin: auto;
+}
+.footerlogo > div {
+    margin-right: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+.footerlogo {
+    text-align: center;
+}
+.navbar-header {
+    display: block;
+}
+.menu {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.menu .navbar-collapse {
+    padding: 0 15px;
+}
+.menu .navbar {
+    background: #f7f7f7 none repeat scroll 0 0;
+}
+.menu .navbar-collapse .nav > li > a:hover {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-bottom: medium none;
+}
+.menu .navbar-collapse .nav > li > a {
+    padding: 4px 15px;
+}
+.header .dropdown-menu::before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    content: none;
+}
+.menu .navbar-collapse .nav li {
+    margin: 0;
+}
+.header .dropdown-menu li a {
+    color: #333 !important;
+    font-family: bold;
+    font-size: 11px;
+    padding-bottom: 8px !important;
+    padding-top: 1px !important;
+    text-align: right;
+}
+.menu .navbar-collapse .nav {
+    margin-top: 0;
+}
+.navbar-brand {
+    font-family: regular;
+    font-size: 15px;
+}
+}
+@media (max-width: 500px) {
+.imagesLinks > div {
+    width: 100%;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-left: 3px;
+}
+.classification > div:first-child a {
+    background-size: 34% auto;
+}
+.classification > div:nth-child(2) a {
+    background-size: 30% auto;
+}
+.classification > div:nth-child(3) a {
+    background-size: 22% auto;
+}
+.classification > div:nth-child(4) a {
+    background-size: 22% auto;
+}
+.classification > div:nth-child(5) a {
+    background-size: 30% auto;
+}
+.classification > div:nth-child(6) a {
+    background-size: 42% auto;
+}
+.classification > div:nth-child(7) a {
+    background-size: 38% auto;
+}
+.classification > div:nth-child(8) a {
+    background-size: 20% auto;
+}
+.classification > div:nth-child(9) a {
+    background-size: 28% auto;
+}
+.classification > div:nth-child(10) a {
+    background-size: 23% auto;
+}
+.classification > div:nth-child(11) a {
+    background-size: 23% auto;
+}
+.classification > div:nth-child(10), .classification > div:nth-child(11) {
+    width: 50% !important;
+}
+.classification > div {
+    width: 33.1% !important;
+}
+.footertoplinks a {
+    width: 50%;
+}
+}
+@media (max-width: 400px) {
+.appslinkIcon a span {
+    font-size: 9px;
+}
+.appslinkIcon a p {
+    font-size: 15px;
+}
+.applestore {
+    padding-left: 42px;
+}
+.googleplay {
+    padding-right: 39px;
+}
+.logo {
+    text-align: center;
+    width: 100%;
+}
+.toplinks {
+    text-align: center;
+    width: 100%;
+}
+.toplinks > div {
+    display: inline-block;
+    float: none;
+    margin: 28px auto auto;
+}
+.menu .navbar {
+    margin-top: 25px;
+}
+}
+@media (max-width: 350px) {
+.footertoplinks a {
+    width: 100%;
+}
+}
+@media (max-width: 320px) {
+.classification > div {
+    width: 33% !important;
+}
+.applestore {
+    padding-left: 38px;
+}
+.appslinkIcon a span {
+    display: none;
+}
+.appslinkIcon a p {
+    font-size: 12px;
+    margin-bottom: 31px;
+    margin-top: 14px;
+}
+.googleplay {
+    padding-right: 35px;
+}
+}

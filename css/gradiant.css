@@ -1,0 +1,42 @@
+﻿
+
+.tp-bannertimer-frames {
+    animation: 8s ease 0s normal none infinite running mymove;
+     -webkit-animation: mymove 8s infinite; 
+}
+@keyframes mymove {
+0% {
+    width: 0;
+}
+100% {
+    width: 99.9%;
+}
+}
+
+@-webkit-keyframes mymove {
+0% {
+    width: 0;
+}
+100% {
+    width: 99.9%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .sponser > a {
+        -webkit-display: flex;
+        -ms-display: flex;
+    }
+
+   
+}
+

@@ -1,0 +1,565 @@
+﻿
+html, html a {
+    text-decoration: none !important;
+    text-rendering: geometricprecision;
+}
+a {
+}
+body {
+    color: #fff;
+    font-family: dinbold;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #333;
+    font-weight: normal;
+    margin-top: 0;
+}
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none !important;
+}
+.container {
+    max-width: 1056px;
+}
+.header {
+    border-top: 5px solid #333;
+}
+.logo {
+}
+.logo a {
+}
+.logo a img {
+    margin-top: 17px;
+}
+.mainmenu {
+}
+.toplinks {
+}
+.menu .navbar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin-top: 32px;
+}
+.menu .navbar-collapse {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 0;
+}
+.menu .navbar-collapse .nav {
+}
+.menu .navbar-collapse .nav li {
+}
+.menu .navbar-collapse .nav > li > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #333 !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 4px 6px 7px;
+    transform: scaleY(1.1);
+}
+.menu .navbar-collapse .nav > li.active > a, .menu .navbar-collapse .nav > li:hover > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.navbar-header {
+    display: none;
+}
+.header .dropdown-menu {
+    background: #fff none repeat scroll 0 0;
+    border-color: #939393;
+    border-radius: 6px !important;
+    box-shadow: none;
+    min-width: 115px;
+    padding-top: 11px;
+    right: -24px;
+    top: 47px;
+}
+.header .dropdown-menu li {
+}
+.header .dropdown-menu li a {
+    border: medium none;
+    color: #333;
+    font-family: dinregular;
+    font-size: 12px;
+    padding: 2px 4px 6px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+}
+.header .dropdown-menu li a:hover {
+}
+.header .dropdown-menu::before {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: -2px -2px 0 -1px #939393;
+    content: "";
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: -3px;
+    transform: rotate(45deg);
+    width: 10px;
+}
+.carousel-fade .carousel-inner .item {
+    min-height: 400px;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    right: 0;
+    transform: translate3d(0px, 0px, 0px);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+.menu {
+    float: left;
+    padding-left: 0;
+    padding-right: 42px;
+}
+.navbar-nav > li:last-child {
+}
+.menu .navbar-collapse .nav > li > a:hover {
+    border-bottom: 1px solid #333;
+}
+.toplinks {
+    float: left;
+    padding-right: 10px;
+    text-align: left;
+}
+.toplinks > div {
+    float: left;
+    margin-top: 36px;
+    overflow: hidden;
+}
+.toplinks > div > a {
+    display: inline-block;
+    float: right;
+    height: 23px;
+    margin-left: 17px;
+}
+.country {
+    background: rgba(0, 0, 0, 0) url("../images/style27.png") no-repeat scroll 0 0;
+    width: 20px;
+}
+.language {
+    border: 2px solid #222;
+    border-radius: 4px;
+    color: #333;
+    font-family: dinbold;
+    line-height: 5px;
+    padding: 4px;
+}
+.signin {
+    background: rgba(0, 0, 0, 0) url("../images/style1.png") no-repeat scroll 0 0;
+    width: 23px;
+}
+.search {
+    background: rgba(0, 0, 0, 0) url("../images/style2.png") no-repeat scroll 0 0;
+    margin-top: 2px;
+    width: 21px;
+}
+.bag {
+    background: rgba(0, 0, 0, 0) url("../images/style3.png") no-repeat scroll 0 0;
+    width: 17px;
+}
+.toplinks > div > a:last-child {
+    margin-left: 0;
+}
+.footer {
+    background: #333 none repeat scroll 0 0;
+}
+.footertoplinks {
+}
+.footertoplinks a {
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 24px 21px;
+    text-transform: uppercase;
+}
+.footertoplinks a:first-child {
+    padding-right: 10px;
+}
+.footertoplinks a:last-child {
+    padding-left: 10px;
+}
+.footerbottom {
+}
+.footerlogo {
+    border-left: 1px solid #3c3c3c;
+    padding-bottom: 17px;
+    padding-top: 20px;
+}
+.applinks {
+    border-left: 1px solid #3c3c3c;
+    padding-top: 20px;
+}
+.socialpayicon {
+    padding-right: 0;
+}
+.footerlogo > span {
+    background: rgba(0, 0, 0, 0) url("../images/logo2.png") no-repeat scroll right top;
+    display: inline-block;
+    float: right;
+    height: 85px;
+    transition: all 0.2s ease 0s;
+    width: 85px;
+}
+.footerlogo:hover > span {
+    background-image: url("../images/logo3.png");
+}
+.footerlogo > div {
+    float: right;
+    margin-right: 14px;
+    width: 67%;
+}
+.footerlogo > div h2 {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.footerlogo > div p {
+    color: #585858;
+    font-family: dinregular;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 2px;
+}
+.footerlogo > div span {
+    color: #8a8a8a;
+    font-family: dinregular;
+    font-size: 14px;
+}
+.appslinkIcon {
+}
+.applestore {
+    background: rgba(0, 0, 0, 0) url("../images/style28.png") no-repeat scroll right top;
+    padding-right: 49px;
+    transition: all 0.2s ease 0s;
+}
+.googleplay {
+    background: rgba(0, 0, 0, 0) url("../images/style29.png") no-repeat scroll right top 7px;
+    float: left !important;
+    padding-right: 42px;
+    transition: all 0.2s ease 0s;
+    width: 43% !important;
+}
+.applestore:hover {
+    background-image: url("../images/style28-h.png");
+}
+.googleplay:hover {
+    background-image: url("../images/style29-h.png");
+}
+.appslinkIcon a {
+    float: right;
+    width: 50%;
+}
+.appslinkIcon a span {
+    color: #717171;
+    font-family: regular;
+    font-size: 11px;
+}
+.appslinkIcon a p {
+    color: #717171;
+    font-family: regular;
+    font-size: 16px;
+}
+.newletter {
+    clear: both;
+    min-height: 36px;
+    position: relative;
+}
+.newletter input {
+    background: #393939 none repeat scroll 0 0;
+    border: 1px solid #393939;
+    border-radius: 20px;
+    color: #dadada;
+    font-size: 11px;
+    padding-right: 45px;
+    padding-top: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+.newletter input:hover {
+    background: #454545 none repeat scroll 0 0;
+}
+.newletter span {
+    color: #757575;
+    font-weight: 900;
+    position: absolute;
+    right: 18px;
+    top: 6px;
+    z-index: 100;
+}
+.newletter button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 12px;
+    left: 12px;
+    position: absolute;
+    top: 8px;
+    z-index: 100;
+}
+.newletter button i {
+    color: #efefef;
+}
+.socialIcon a {
+    color: #717171;
+    display: inline-block;
+    float: right;
+    font-size: 21px;
+    padding: 16px 37px;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+}
+.socialIcon a:hover {
+    color: #adadad;
+}
+.PayIcon {
+}
+.PayIcon a {
+    border-top: 1px solid #3c3c3c;
+    display: inline-block;
+    float: right;
+    height: 26px;
+    padding-top: 51px;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+}
+.PayIcon a:first-child {
+    background: rgba(0, 0, 0, 0) url("../images/style22.png") no-repeat scroll center center;
+}
+.PayIcon a:nth-child(2) {
+    background: rgba(0, 0, 0, 0) url("../images/style23.png") no-repeat scroll center center;
+}
+.PayIcon a:nth-child(3) {
+    background: rgba(0, 0, 0, 0) url("../images/style24.png") no-repeat scroll center center;
+}
+.PayIcon a:nth-child(4) {
+    background: rgba(0, 0, 0, 0) url("../images/style25.png") no-repeat scroll center center;
+}
+.PayIcon a:first-child:hover {
+    background-image: url("../images/style22-h.png");
+}
+.PayIcon a:nth-child(2):hover {
+    background-image: url("../images/style23-h.png");
+}
+.PayIcon a:nth-child(3):hover {
+    background-image: url("../images/style24-h.png");
+}
+.PayIcon a:nth-child(4):hover {
+    background-image: url("../images/style25-h.png");
+}
+.socialIcon {
+    overflow: hidden;
+}
+.socialIcon > div {
+    overflow: hidden;
+}
+.mainslider {
+}
+.mainslider a.left {
+    background: rgba(0, 0, 0, 0) url("../images/style31.png") no-repeat scroll center center;
+    width: 10%;
+}
+.mainslider a.right {
+    background: rgba(0, 0, 0, 0) url("../images/style30.png") no-repeat scroll center center;
+    width: 10%;
+}
+.mainslider .item {
+}
+.mainslider .item p {
+    background-size: cover !important;
+    margin-bottom: 0;
+    min-height: 400px;
+}
+.classification {
+    margin-top: 4px;
+}
+.classification > div {
+    float: right;
+    margin-left: 3px;
+    position: relative;
+    width: 8.8%;
+}
+.classification > div a {
+    background: #333 url("../images/style4.png") no-repeat scroll center center;
+    display: block;
+    min-height: 87px;
+    transition: all 0.2s ease-in 0s;
+    width: 100%;
+}
+.classification > div:first-child {
+    margin-right: 2px;
+}
+.classification > div:hover a {
+    background: #eaeaea url("../images/style4-h.png") no-repeat scroll center center;
+}
+.classification > div p {
+    background: #bfbfbf none repeat scroll 0 0;
+    color: #333333;
+    font-family: dinregular;
+    font-size: 14px;
+    margin-top: 1px;
+    padding: 3px 2px 9px;
+    text-align: center;
+    transition: all 0.4s ease-in 0s;
+}
+.classification > div:hover p {
+    background: #333 none repeat scroll 0 0;
+    color: #eee;
+}
+.classification > div:first-child a {
+    background-image: url("../images/style4.png");
+}
+.classification > div:nth-child(2) a {
+    background-image: url("../images/style5.png");
+}
+.classification > div:nth-child(3) a {
+    background-image: url("../images/style6.png");
+}
+.classification > div:nth-child(4) a {
+    background-image: url("../images/style7.png");
+}
+.classification > div:nth-child(5) a {
+    background-image: url("../images/style8.png");
+}
+.classification > div:nth-child(6) a {
+    background-image: url("../images/style9.png");
+}
+.classification > div:nth-child(7) a {
+    background-image: url("../images/style10.png");
+}
+.classification > div:nth-child(8) a {
+    background-image: url("../images/style11.png");
+}
+.classification > div:nth-child(9) a {
+    background-image: url("../images/style12.png");
+}
+.classification > div:nth-child(10) a {
+    background-image: url("../images/style13.png");
+}
+.classification > div:nth-child(11) a {
+    background-image: url("../images/style14.png");
+}
+.classification > div:first-child:hover a {
+    background-image: url("../images/style4-h.png");
+}
+.classification > div:nth-child(2):hover a {
+    background-image: url("../images/style5-h.png");
+}
+.classification > div:nth-child(3):hover a {
+    background-image: url("../images/style6-h.png");
+}
+.classification > div:nth-child(4):hover a {
+    background-image: url("../images/style7-h.png");
+}
+.classification > div:nth-child(5):hover a {
+    background-image: url("../images/style8-h.png");
+}
+.classification > div:nth-child(6):hover a {
+    background-image: url("../images/style9-h.png");
+}
+.classification > div:nth-child(7):hover a {
+    background-image: url("../images/style10-h.png");
+}
+.classification > div:nth-child(8):hover a {
+    background-image: url("../images/style11-h.png");
+}
+.classification > div:nth-child(9):hover a {
+    background-image: url("../images/style12-h.png");
+}
+.classification > div:nth-child(10):hover a {
+    background-image: url("../images/style13-h.png");
+}
+.classification > div:nth-child(11):hover a {
+    background-image: url("../images/style14-h.png");
+}
+.classification > div:last-child {
+    float: left;
+    margin-left: 0;
+}
+.imagesLinks {
+}
+.imagesLinks > div {
+    overflow: hidden;
+    padding: 0 3px;
+    position: relative;
+}
+.imagesLinks > div a {
+    display: inline-block;
+    min-height: 240px;
+    width: 100%;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-left: 0;
+}
+.imagesLinks > div > p {
+    min-height: 240px;
+    padding: 0 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.imagesLinks > div > p span {
+    background: rgba(0, 0, 0, 0.48) none repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    min-height: 240px;
+    width: 100%;
+}
+.sponser {
+    margin-bottom: 22px;
+    margin-top: 17px;
+}
+.sponser > a {
+    display: inline-block;
+    float: right;
+    height: 126px;
+    line-height: 111px;
+    text-align: center;
+    transition: all 0.36s ease-out 0s;
+    width: 12.4%;
+}
+.sponser > a img {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    opacity: 0.317;
+    transition: all 0.36s ease-out 0s;
+}
+.sponser > a:last-child {
+    background: #f0f0f0 none repeat scroll 0 0;
+    color: #e0e0e0;
+    float: left;
+    font-family: regular;
+    font-size: 44px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+.sponser > a:last-child span {
+    display: block;
+    width: 100%;
+}
+.sponser > a:last-child p {
+    display: none;
+}
+.sponser > a:hover img {
+    opacity: 0.87;
+}
+.sponser > a:last-child:hover {
+    background: #bfbfbf none repeat scroll 0 0;
+    color: #ffffff;
+}

@@ -1,0 +1,1558 @@
+﻿
+@media (min-width: 1200px) {
+.container {
+    width: 1200px;
+}
+.addnewaddresscontainer {
+    max-width: 1075px;
+}
+.addnewaddress {
+    margin: auto;
+    max-width: 1065px;
+}
+.dashboard {
+    margin: auto;
+    max-width: 1065px;
+}
+.gift, .ordertablecontain, .whishlist, .billingaddresscontent {
+    margin: auto;
+    max-width: 1065px;
+}
+.static {
+    max-width: 990px;
+}
+}
+@media (max-width: 1200px) {
+
+    .productdetailschoose > h1 {
+    font-size: 30px;
+}
+    .productdetailschoose > p {
+    font-size: 13px;
+}
+    .colorchoose > p, .choosesize > p, .shareproduct > p, .someproductdetails > h4 {
+    font-size: 15px;
+}
+    .choosesize .btn {
+    margin-right: 8px;
+}
+    .someproductdetails > p {
+    font-size: 13px;
+}
+.billingaddress .form-group label {
+    font-size: 12px;
+}
+.billingaddresscontent > div:first-child {
+    padding: 0 15px;
+}
+.billingaddress {
+    padding: 0 15px !important;
+}
+.CheckoutRegistered .productbuy {
+    padding-right: 15px;
+}
+.shippingaddress {
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.shippingmethod {
+    padding-left: 15px;
+    padding-top: 21px;
+}
+.orderstatus > div {
+    margin-left: 30px;
+}
+.filterbutton button {
+    padding: 6px 4px;
+    width: 142px;
+}
+.resetfilter {
+    margin-right: 8px;
+}
+.colorgroup > p {
+    margin-right: 13px;
+}
+.colorchoose {
+    padding-left: 15px;
+}
+.static .imgheader p {
+    padding: 0 15px;
+}
+.giftquantity > div {
+    background: rgba(0, 0, 0, 0) url("../images/style32.png") no-repeat scroll right top / 100% auto;
+    float: right;
+    height: 340px;
+    margin-right: 0;
+    margin-top: 66px;
+    position: relative;
+    width: 100%;
+}
+.caret {
+    right: 14px !important;
+}
+.makedefault {
+    padding-right: 15px;
+    text-align: right;
+}
+.makedefault button {
+    font-size: 12px;
+    padding: 0 10px;
+}
+.editaddress button {
+    font-size: 12px;
+    width: 40%;
+}
+.changeemail {
+    width: 385px;
+}
+.accountbutton > button {
+    width: 183px;
+}
+.accountbutton {
+    padding-right: 35px;
+}
+.accountname {
+    padding-left: 35px;
+}
+.tabheadaccount > ul > li a {
+    border: medium none;
+    font-size: 12px;
+    margin: 0;
+    padding: 8px 15px;
+}
+.tabheadaccount {
+    height: 37px;
+}
+.tellusmore .form-group label {
+    font-size: 12px;
+    line-height: 25px;
+}
+.tellusmore {
+    width: 415px;
+}
+.contact > p {
+    padding: 0 15px;
+}
+.country-input input:nth-child(1) {
+    width: 143px;
+}
+.country-input input:nth-child(2) {
+    width: 70px;
+}
+.country-input input:nth-child(3) {
+    width: 70px;
+}
+.contactform {
+    padding-right: 15px;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-left: 2px;
+    padding-right: 0;
+}
+.imagesLinks > div:first-child, .imagesLinks > div:nth-child(3) {
+    padding-left: 2px;
+    padding-right: 7px;
+}
+.googleplay {
+}
+.classification > div {
+    width: 16.1%;
+}
+.classification > div:nth-child(6) {
+    width: 16.9%;
+}
+.menu .navbar-collapse .nav > li > a {
+    padding: 10px 8px;
+}
+.classification > div:last-child {
+    width: 16.9%;
+}
+.classification > div p {
+    font-size: 12px;
+}
+.footerlogo > div span {
+    font-size: 11px;
+}
+.menu {
+    padding-left: 22px;
+}
+.footerlogo > div {
+    width: 66%;
+}
+.socialIcon a {
+    padding: 16px 27px;
+}
+.classification > div {
+    width: 16.3%;
+}
+.footertoplinks a {
+    padding: 4px 22px !important;
+}
+.classification > div:first-child a {
+}
+.classification > div:nth-child(2) a {
+}
+.classification > div:nth-child(3) a {
+}
+.classification > div:nth-child(4) a {
+}
+.classification > div:nth-child(5) a {
+}
+.classification > div:nth-child(6) a {
+}
+.classification > div:nth-child(7) a {
+}
+.classification > div:nth-child(8) a {
+}
+.classification > div:nth-child(9) a {
+}
+.classification > div:nth-child(10) a {
+}
+.classification > div:nth-child(11) a {
+}
+.classification > div:last-child a {
+}
+}
+@media (max-width: 992px) {
+
+    .productdetailschoose > a:first-child {
+    display: none;
+}
+    .lSSlideWrapper {
+    padding-left: 10px;
+    padding-right: 25px;
+}
+    .productdetailschoose {
+    padding-left: 28%;
+    padding-right: 21%;
+}
+
+.dashboard {
+    margin-top: 60px !important;
+}
+.billingaddress .whitebutton {
+    margin-bottom: 33px;
+    margin-top: 13px;
+}
+.billingaddress2 {
+    margin-top: 0;
+}
+.CheckoutRegistered .productbuy {
+    padding-bottom: 10px;
+}
+.statisticTotal {
+    margin-bottom: 31px;
+    margin-top: 33px;
+}
+.totalbuy > div > p:last-child {
+    text-align: right;
+}
+.productbuy {
+    margin-top: 44px;
+}
+.productbuy {
+    padding-left: 15px;
+}
+.odrerdetailscontent {
+    padding-right: 15px;
+}
+.orderstatus > div {
+    float: right;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.filtercategory {
+    margin-top: 7px;
+}
+.searchfiltercontainer {
+    padding: 0 0 30px;
+}
+.filterpages > div {
+    float: left;
+    margin-top: 13px;
+}
+.statictext > a {
+    display: block;
+    overflow: hidden;
+}
+.statictext > p span {
+    font-size: 19px;
+    text-align: left;
+}
+.statictext > p {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+}
+.paymenymethods > div:last-child > div {
+    width: 240px;
+}
+.ordercontent > div p {
+    padding-left: 0;
+}
+.productdetails > span {
+    font-size: 12px;
+}
+.gifttype > p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.giftquantity > div {
+    margin-top: 94px;
+}
+.caret {
+    right: 8px !important;
+}
+.makedefault {
+    clear: both;
+}
+.makedefault button {
+    width: 100%;
+}
+.accountname > div > div > h2 {
+    font-size: 23px;
+}
+.tabheadaccount > ul > li {
+    width: 25%;
+}
+.tellusmore > button {
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+.telluscontent > span {
+    display: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .nav-tabs > li > a:hover {
+    background: #333333 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+}
+.tabheadaccount {
+    height: 66px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: left;
+}
+.accountname {
+    padding-left: 30px;
+    padding-top: 23px;
+}
+.accountbutton {
+    padding-right: 30px;
+}
+.accountname > div > h2 {
+    font-size: 23px;
+}
+.accountbutton > button {
+    margin-top: 42px;
+    width: 147px;
+}
+.Signin > div, .Signup > div {
+    width: 290px;
+}
+.Signup > div > p {
+    margin: 29px 0 0;
+}
+.classification > div p {
+    bottom: 14px;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-left: 4px;
+    padding-right: 0;
+}
+.imagesLinks > div:first-child, .imagesLinks > div:nth-child(3) {
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.footerlogo > div p {
+    margin-top: 12px;
+}
+.footerlogo > div span {
+    font-size: 11px;
+    margin-top: 10px;
+}
+.classification > div:nth-child(6) {
+}
+.classification > div:last-child {
+}
+.menu .navbar {
+    margin-top: 8px;
+}
+.sponser > a img {
+    width: auto;
+}
+.sponser > a {
+    height: 94px;
+    line-height: 91px;
+}
+.sponser > a:last-child {
+    font-size: 32px;
+    line-height: 30px;
+}
+.classification > div p {
+    font-size: 11px;
+}
+.menu .navbar {
+    margin-bottom: 0;
+}
+.applinks {
+    border-right: 1px solid #3c3c3c;
+    min-height: 134px;
+    padding-top: 20px;
+}
+.socialpayicon {
+    padding-bottom: 20px;
+}
+.menu {
+    padding-left: 0;
+}
+.navbar-nav > li:last-child {
+    margin-top: 0;
+}
+.menu {
+    padding-left: 14px;
+}
+.footertoplinks a {
+    font-size: 12px;
+    padding: 5px 0;
+    width: 25%;
+}
+.footertoplinks {
+    padding-bottom: 11px;
+    padding-top: 9px;
+}
+.footerbottom {
+    margin-top: 12px;
+}
+.footertoplinks a:first-child {
+    padding-left: 0;
+}
+.footertoplinks a:last-child {
+    padding-right: 0;
+}
+.footerlogo {
+    border-bottom: 1px solid #3c3c3c;
+    border-right: medium none;
+    padding-bottom: 19px;
+    padding-top: 12px;
+}
+.classification > div a {
+    height: 127px;
+}
+.classification > div {
+    width: 16.1%;
+}
+.footertoplinks a {
+    margin: 5px 0;
+    padding: 0 !important;
+}
+.classification > div:first-child a {
+}
+.classification > div:nth-child(2) a {
+}
+.classification > div:nth-child(3) a {
+}
+.classification > div:nth-child(4) a {
+}
+.classification > div:nth-child(5) a {
+}
+.classification > div:nth-child(6) a {
+}
+.classification > div:nth-child(7) a {
+}
+.classification > div:nth-child(8) a {
+}
+.classification > div:nth-child(9) a {
+    line-height: 20px;
+}
+.classification > div:nth-child(10) a {
+}
+.classification > div:nth-child(11) a {
+}
+.classification > div:last-child a {
+}
+.classification > div svg {
+    width: 55px;
+}
+.classification > div:last-child a svg {
+    margin-top: 34px;
+    width: 47px;
+}
+.classification > div:nth-child(7) a svg {
+    width: 61px;
+}
+.classification > div:nth-child(10) a svg {
+    width: 54px;
+}
+.classification > div:nth-child(11) a svg {
+    margin-top: 21px;
+    width: 56px;
+}
+.classification > div:nth-child(5) a svg {
+    margin-top: 31px;
+    width: 47px;
+}
+}
+@media (max-width: 992px) and (min-width: 767px) {
+.classification > div {
+    width: 16.3% !important;
+}
+}
+@media (max-width: 767px) {
+    .productdetailschoose {
+    padding-left: 18%;
+    padding-right: 11%;
+}
+
+
+    .productdetailschoose > a:first-child {
+    display: none;
+}
+
+     .lSSlideWrapper {
+    height: 500px !important;
+}
+    .lSSlideOuter.vertical .lSGallery {
+    width: 72px !important;
+}
+    .lSSlideOuter .lSPager.lSGallery li {
+    height: auto !important;
+}
+    .lSSlideOuter.vertical {
+    padding-left: 77px !important;
+}
+
+    .lSSlideWrapper > ul{
+
+    }
+
+    .lSSlideWrapper > ul li{
+
+    }
+
+ 
+
+.billingaddress > div > .form-group {
+    margin-bottom: 9px;
+}
+.billingaddress2 .row > div:first-child {
+    padding: 0 15px;
+}
+.addressfill .bs-caret {
+    border-left: medium none;
+}
+.shippingmethod {
+    padding-top: 42px;
+}
+.paymentradio {
+    margin-top: 27px;
+}
+.shippingaddress {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.odrerdetailscontent > h2 {
+    font-size: 21px;
+}
+.orderstatus {
+    height: auto;
+    text-align: center;
+}
+.shopaddress div {
+    text-align: center;
+    width: 100%;
+}
+.orderstatus > p {
+    float: none;
+    margin: auto;
+    text-align: center;
+}
+.orderstatus > span {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+.orderstatus > div {
+    float: none;
+    margin: auto;
+}
+.filterbutton > div {
+    float: left;
+}
+.filterbutton button {
+    margin-top: 29px;
+}
+.imgheader a {
+    margin-top: 10px;
+}
+.static .imgheader p {
+    font-size: 19px;
+}
+.statictext > p {
+    line-height: 20px;
+    text-align: justify;
+}
+.statictext > a img {
+    margin: auto;
+}
+.statictext {
+    text-align: center;
+}
+.statictext > p span {
+    text-align: center;
+}
+.ordertablecontent td[data-title="order no."] {
+    color: #222222;
+    font-family: bold;
+    font-size: 14px;
+    padding-left: 50%;
+    text-align: center;
+}
+.ordertablecontent tr {
+    height: auto;
+}
+.ordertablecontent table td:first-child {
+    border-left: medium none;
+}
+.ordertablecontent table td {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: medium none;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    text-align: center;
+}
+.ordertablecontent table td:last-child {
+    border-right: medium none;
+}
+.ordertablecontent thead {
+    display: none;
+}
+.giftquantity > div {
+    margin-right: 0;
+    margin-top: 74px;
+}
+.spinner {
+    margin-top: 20px;
+}
+.gifttype > div > button {
+    margin-top: 20px;
+}
+.gifttype {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    width: 329px;
+}
+.giftquantity {
+    float: none;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.gifttype > p {
+    text-align: left;
+}
+.gift {
+    text-align: center;
+}
+.dashboard {
+    margin-top: 50px !important;
+}
+.dashboard > div > div {
+    height: 150px !important;
+}
+.informationDash {
+    margin-bottom: 40px;
+}
+.addfund {
+    padding: 0 15px;
+}
+.accountcridet p {
+    font-size: 16px;
+    width: 95%;
+}
+.caret {
+    right: 4% !important;
+}
+.addressfill .whitebutton {
+    display: inline-block;
+    float: none;
+    margin: auto;
+}
+.addressfill > div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.addressfill1 {
+    padding-right: 15px;
+}
+.addressfill2 {
+    padding-left: 15px;
+    padding-top: 0;
+}
+.headpayment p {
+    margin-bottom: 0;
+    margin-top: 42px;
+    text-align: center;
+}
+.headpayment > div {
+    padding: 0 57px;
+    text-align: center;
+}
+.headpayment button {
+    float: none;
+    margin: 29px auto 26px;
+}
+.changeemail > .form-group > div:first-child {
+    padding: 0 0 0 15px;
+}
+.accountname P {
+    display: inline-block;
+    float: none;
+}
+.accountname > div {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.accountname > div > div > h2 {
+    margin-bottom: 6px;
+    margin-top: 7px;
+}
+.accountbutton {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.accountbutton > button {
+    margin-bottom: 35px;
+    margin-top: 26px;
+}
+.accountname {
+    text-align: center;
+}
+.tabheadaccount {
+    height: 97px;
+}
+.tabheadaccount > ul > li {
+    width: 33.3%;
+}
+.contactInfo > a {
+    text-align: center;
+}
+.contactInfo > a img {
+    margin: auto;
+    max-width: 260px;
+}
+.contactInfo {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contactInfo > div {
+    padding-bottom: 0;
+}
+.contactInfo > div:last-child {
+    border-top: medium none;
+    padding-bottom: 20px;
+}
+.contactform .form-group textarea {
+    height: auto !important;
+    max-height: 275px !important;
+}
+.contactform {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.contactform .form-group {
+    padding: 0 15px;
+}
+.signStyle {
+    margin-top: 32px;
+}
+.signStyle > .form-group {
+    margin-top: 15px;
+}
+.signStyle > .form-group label {
+    margin-bottom: 7px;
+}
+.Signin > div > p, .Signup > div > p {
+    margin-top: 9px;
+}
+.PayIcon a svg {
+    width: 58px;
+}
+.PayIcon a:nth-child(3) svg {
+    width: 43px !important;
+}
+.PayIcon a:last-child svg {
+    width: 77px !important;
+}
+.classification > div p {
+    bottom: 6px;
+}
+.footerlogo > div span {
+    font-size: 11px;
+    margin-top: 6px;
+}
+.footerlogo > div p {
+    line-height: 16px;
+    margin-bottom: 0;
+}
+.footerlogo > a {
+    width: 100%;
+}
+.imagesLinks > div a {
+    background-position: 30% center !important;
+    background-size: cover;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-left: 3px;
+    padding-right: 0;
+}
+.imagesLinks > div:first-child, .imagesLinks > div:nth-child(3) {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.mainslider .item p {
+    background-position: 50% center !important;
+    background-size: cover !important;
+    margin-bottom: 0;
+    min-height: 310px;
+}
+.carousel-fade .carousel-inner .item {
+    min-height: 310px;
+}
+.classification > div:nth-child(4) {
+    padding-right: 0;
+}
+.classification > div:nth-child(8) {
+    padding-right: 0;
+}
+.classification > div:last-child {
+}
+.classification > div:nth-child(1) {
+    padding-left: 0;
+}
+.classification > div:nth-child(5) {
+    padding-left: 0;
+}
+.classification > div:nth-child(9) {
+    padding-left: 0;
+}
+.toplinks > div {
+    margin-top: 38px;
+    position: absolute;
+    right: 14px;
+    top: 2px;
+    z-index: 100000;
+}
+.header {
+    position: relative;
+}
+.navbar-header {
+    display: block;
+    margin-left: -1px;
+    width: 61px;
+}
+.navbar-header > button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+.menu {
+    left: 79px;
+    padding-left: 4px !important;
+    position: absolute;
+    top: 5px;
+    z-index: 1000;
+}
+.sponser > a:last-child p {
+    display: block;
+}
+.sponser > a:last-child {
+    font-size: 22px;
+}
+.sponser > a {
+    width: 25%;
+}
+.sponser > a img {
+    width: auto;
+}
+.classification > div p {
+    font-size: 11px;
+    margin-bottom: 6px;
+    padding: 6px 5px;
+}
+.classification > div:last-child, .classification > div:nth-child(6) {
+    float: left;
+}
+.classification > div {
+    margin-right: 0;
+}
+.classification > div {
+    width: 33.1%;
+}
+.menu .navbar {
+    margin-bottom: 16px;
+    margin-top: 19px;
+}
+.mainslider a.left, .mainslider a.right {
+    width: 20%;
+}
+.applinks {
+    border-right: medium none;
+}
+.appslinkIcon a {
+}
+.applestore {
+    padding-left: 0;
+    text-align: right;
+}
+.googleplay {
+    width: 48% !important;
+}
+.footerlogo > div p {
+    line-height: 23px;
+    margin-bottom: 3px;
+}
+.socialIcon {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.socialIcon > div {
+    display: inline-block;
+    float: none;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.socialIcon a {
+    width: 25%;
+}
+.footertoplinks a {
+    font-size: 10px;
+    padding: 4px 0;
+    text-align: center;
+    width: 33.3%;
+}
+.footerlogo > span {
+    display: inline-block;
+    float: none;
+    margin: auto;
+}
+.footerlogo > div {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+.footerlogo {
+    text-align: center;
+}
+.navbar-header {
+    display: block;
+}
+.menu {
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 10000;
+}
+.menu .navbar-collapse {
+    background: #f8f8f8 none repeat scroll 0 0;
+    margin-top: 8px;
+    padding: 0 15px;
+    width: 114%;
+}
+.menu .navbar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.menu .navbar-collapse .nav > li > a:hover {
+}
+.menu .navbar-collapse .nav > li > a {
+    padding: 7px 15px;
+}
+.header .dropdown-menu::before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    content: none;
+}
+.menu .navbar-collapse .nav li {
+    margin: 0;
+}
+.header .dropdown-menu li a {
+    padding: 6px 16px !important;
+}
+.menu .navbar-collapse .nav {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.navbar-brand {
+    font-family: regular;
+    font-size: 15px;
+}
+.classification > div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 25%;
+}
+.classification > div:last-child {
+    width: 24.9%;
+}
+.classification > div:nth-child(7) {
+    padding-left: 3px;
+}
+.classification > div:nth-child(6) {
+    padding: 0 3px;
+    width: 25%;
+}
+.classification > div svg {
+}
+.classification > div:nth-child(5) a svg {
+}
+.classification > div:nth-child(7) a svg {
+}
+.classification > div:nth-child(11) a svg {
+}
+.classification > div:last-child a svg {
+}
+.classification > div:last-child a svg {
+}
+.classification > div:first-child a {
+}
+.classification > div:nth-child(2) a {
+}
+.classification > div:nth-child(3) a {
+}
+.classification > div:nth-child(4) a {
+}
+.classification > div:nth-child(5) a {
+}
+.classification > div:nth-child(6) a {
+}
+.classification > div:nth-child(7) a {
+}
+.classification > div:nth-child(8) a {
+}
+.classification > div:nth-child(9) a {
+}
+.classification > div:nth-child(10) a {
+}
+.classification > div:nth-child(11) a {
+}
+.classification > div:last-child a {
+}
+}
+@media (max-width: 620px) {
+.paymentDash, .addressDash {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.prodcutcontainer {
+    width: 100%;
+}
+.accordioncontainer {
+    width: 100%;
+}
+.shoppingoption {
+    padding-bottom: 16px;
+}
+.accordioncontainer > div {
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 570px) {
+.giftquantity {
+    width: 100%;
+}
+.isdefualt p {
+    line-height: 25px;
+}
+.makedefault {
+    width: 100%;
+}
+.makedefault button {
+    margin-top: 25px;
+}
+.editaddress {
+    padding: 0 15px;
+    width: 100%;
+}
+.editaddress button {
+    font-size: 13px;
+    margin-top: 16px;
+    padding-left: 0;
+    width: 100% !important;
+}
+.editaddress button:last-child {
+    padding-left: 0;
+}
+.tabheadaccount {
+    height: 130px;
+}
+.tabheadaccount > ul > li {
+    width: 50%;
+}
+}
+@media (max-width: 500px) {
+    .priceproduct > p:last-child {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+}
+    .addtobag {
+    margin-left: 0;
+}
+    .quantityproduct {
+    width: 188px;
+}
+   .productdetailschoose {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+   .choosesize > span {
+    display: none;
+}
+.statisticTotal > div p {
+    line-height: 57px;
+    margin: auto;
+    text-align: center;
+}
+.prceedchekout > button {
+    padding: 0 15px;
+    width: 100%;
+}
+.statisticTotal > div p span {
+    display: block;
+    float: none;
+    font-size: 11px;
+}
+.statisticTotal > div p span:last-child {
+    line-height: 56px;
+    margin-left: auto;
+}
+.giftcontent {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding-left: 13px;
+}
+.productbuydetails > span {
+    display: none;
+}
+.productbuydetails {
+    float: left;
+    margin-left: 20px;
+    max-width: 67%;
+}
+.productbuydetails > p {
+    color: #4a4d55;
+    font-family: bold;
+    font-size: 12px;
+    height: 38px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.productdate {
+    float: left !important;
+    margin-bottom: 8px;
+    margin-right: 30px;
+    width: 100% !important;
+}
+.filterpath > div {
+    margin-left: 0;
+    margin-top: 6px;
+    width: 100%;
+}
+.showinpage {
+    margin-bottom: 7px;
+    width: 100%;
+}
+.showinpage > p:first-child {
+    width: 30%;
+}
+.selectperpage {
+    width: 30% !important;
+}
+.statictext > a img {
+    width: 100%;
+}
+.paymenymethods > div:last-child {
+    margin-top: 14px;
+    width: 100%;
+}
+.paymenymethods > div:last-child > div {
+    width: 100%;
+}
+.caret {
+    right: 3% !important;
+}
+.country-input input:nth-child(2) {
+    width: 23%;
+}
+.country-input input:nth-child(3) {
+    width: 23%;
+}
+.country-input input:nth-child(1) {
+    width: 46%;
+}
+.tellusmore {
+    padding: 0 15px;
+    width: 100%;
+}
+.imagesLinks > div p, .imagesLinks > div {
+    padding: 0 !important;
+}
+.classification > div:nth-child(4) {
+    padding-left: 0;
+    padding-right: 3px;
+}
+.classification > div:nth-child(5) {
+    padding-left: 3px;
+}
+.classification > div:nth-child(8) {
+    padding-right: 3px;
+}
+.classification > div:nth-child(9) {
+    padding-left: 3px;
+}
+.classification > div:nth-child(7) {
+    padding-left: 0;
+}
+.classification > div:nth-child(10) {
+    padding-left: 0;
+}
+.classification > div:nth-child(3) {
+    padding-right: 0;
+}
+.classification > div:nth-child(6) {
+    padding-right: 0;
+}
+.classification > div:nth-child(9) {
+    padding-right: 0;
+}
+.applestore {
+}
+.googleplay {
+}
+.footerlogo > div {
+    display: none;
+}
+.copyright {
+    display: inline-block;
+    padding-bottom: 17px;
+    text-align: center;
+    width: 100%;
+}
+.sponser > a {
+    height: 106px;
+    width: 50%;
+}
+.sponser > a:last-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.sponser > a:last-child:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #8d8d8d;
+}
+.sponser > a:last-child {
+    display: inline-block;
+    font-size: 41px;
+    line-height: 41px;
+    padding-top: 0;
+    text-align: center;
+}
+.sponser > a:last-child > p {
+    display: none;
+}
+.imagesLinks > div {
+    width: 100%;
+}
+.imagesLinks > div:last-child, .imagesLinks > div:nth-child(2) {
+    padding-right: 3px;
+}
+.classification > div {
+    width: 33.3% !important;
+}
+.footertoplinks a {
+    width: 50%;
+}
+.classification > div a {
+}
+.classification > div:first-child a {
+}
+.classification > div:nth-child(2) a {
+}
+.classification > div:nth-child(3) a {
+}
+.classification > div:nth-child(4) a {
+}
+.classification > div:nth-child(5) a {
+}
+.classification > div:nth-child(6) a {
+}
+.classification > div:nth-child(7) a {
+}
+.classification > div:nth-child(8) a {
+}
+.classification > div:nth-child(9) a {
+}
+.classification > div:nth-child(10) a {
+}
+.classification > div:nth-child(11) a {
+}
+.classification > div:last-child a {
+}
+}
+@media (max-width: 400px) {
+.glyogift {
+    min-height: 104px;
+}
+.productdetails {
+    float: none;
+    margin: auto;
+    width: 240px;
+    text-align:center;
+}
+.wishpar > span {
+    margin-bottom: 37px;
+}
+.productdetails {
+    float: none;
+    margin: 64px auto auto;
+    width: 240px;
+}
+.productdetails > div p {
+    float: left;
+    margin-bottom: 0;
+    width: 100%;
+}
+.productdetails > div {
+    text-align: center;
+}
+.whishlist {
+    margin: auto;
+    text-align: center;
+}
+.productdetails > div span {
+    float: none;
+    margin-left: 0;
+}
+.numdash p {
+    font-size: 10px;
+}
+.datedash p {
+    font-size: 11px;
+}
+.datedash span {
+    font-size: 11px;
+}
+.itemdash p {
+    font-size: 12px;
+}
+.itemdash span {
+    font-size: 12px;
+}
+.linkdash a {
+    font-size: 11px;
+}
+.addresstext {
+    width: 100%;
+}
+.isdefualt p {
+    line-height: 25px;
+    margin: 20px 0 0;
+}
+.isdefualt {
+    width: 100%;
+}
+.tellusmore > button {
+    width: 100%;
+}
+.tabheadaccount {
+    height: auto;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    text-align: center;
+}
+.tellusmore > p {
+    font-size: 14px;
+    text-align: center;
+}
+.tabheadaccount > ul > li a {
+    border: medium none;
+    font-size: 11px;
+    margin: 0;
+    padding: 8px 5px;
+}
+.accountbutton > button {
+    margin-bottom: 0;
+    margin-top: 19px;
+    width: 100%;
+}
+.tabheadaccount > ul > li {
+    width: 100%;
+}
+.accountbutton {
+}
+.menu {
+    top: 0;
+}
+.toplinks > div {
+    margin: 39px auto auto;
+}
+.toplinks {
+    float: right;
+    padding-left: 0;
+    text-align: right;
+    width: 216px;
+}
+.toplinks > div > a {
+    margin-right: 9px;
+}
+.appslinkIcon a span {
+    font-size: 11px;
+}
+.appslinkIcon a p {
+    font-size: 15px;
+}
+.applestore {
+}
+.googleplay {
+}
+.logo {
+    padding-right: 0;
+    text-align: center;
+    width: 23%;
+}
+.menu .navbar {
+    margin-top: 25px;
+}
+.toplinks > div > a:last-child {
+    margin-right: 0 !important;
+}
+}
+@media (max-width: 350px) {
+.static .imgheader p {
+    font-size: 15px;
+}
+.statictext > p span {
+    font-size: 16px;
+}
+.gifttype > div > button {
+    margin-left: 0;
+}
+.accountcridet button {
+    color: #333333;
+    font-size: 13px;
+    margin: 30px 15px 0;
+    width: 79% !important;
+}
+.gifttype > ul li {
+    margin-right: 10px;
+}
+.gifttype > ul li p {
+    width: 74px;
+}
+.whitebutton {
+    margin-left: 0;
+    width: 100% !important;
+}
+.spinner {
+    width: 100%;
+}
+.gifttype {
+    width: 100%;
+}
+.headpayment button {
+    width: 100%;
+}
+.applestore {
+}
+.footertoplinks a {
+    width: 100%;
+}
+.classification > div:last-child a {
+}
+.dashboard > div > h2 {
+    font-size: 18px;
+}
+.informationDash > div > p, .paymentDash > div > p {
+    font-size: 12px;
+}
+}
+@media (max-width: 319px) {
+.toplinks > div > a {
+    margin-right: 3px !important;
+}
+.classification > div {
+    width: 33% !important;
+}
+.applestore {
+}
+.appslinkIcon a span {
+    display: none;
+}
+.appslinkIcon a p {
+    font-size: 12px;
+    margin-bottom: 31px;
+    margin-top: 14px;
+}
+.googleplay {
+}
+}
+@media only screen and (max-width: 767px) {
+.ordertablecontaincontain table, .ordertablecontain thead, .ordertablecontain tbody, .ordertablecontain th, .ordertablecontain td, .ordertablecontain tr {
+    display: block;
+}
+.ordertablecontain thead tr {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
+}
+.ordertablecontain tr {
+}
+.ordertablecontain td {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #eeeeee;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    padding-left: 50%;
+    position: relative;
+    text-align: left;
+    white-space: normal;
+}
+.ordertablecontain td::before {
+    font-weight: bold;
+    left: 6px;
+    padding-right: 10px;
+    position: absolute;
+    text-align: left;
+    top: 6px;
+    white-space: nowrap;
+    width: 45%;
+}
+.ordertablecontain td::before {
+    color: #505050;
+    content: attr(data-title);
+    font-weight: normal;
+}
+.ordertablecontain tr {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.ordertablecontain tr:nth-child(2n+1) {
+    background: #fdfdfd none repeat scroll 0 0;
+}
+.ordertablecontent td p {
+    line-height: 26px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+}

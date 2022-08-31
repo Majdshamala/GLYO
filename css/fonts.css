@@ -1,0 +1,50 @@
+﻿
+
+@font-face {
+  font-family: 'bold';
+  font-style: normal;
+     src: url("font/Lato-Bol.ttf"),
+        url("font/Lato-Bol.otf"),
+        url("font/Lato-Bol.woff") format('woff');
+}
+@font-face {
+  font-family: 'regular';
+  font-style: normal;
+     src: url("font/Lato-Reg.ttf"),
+        url("font/Lato-Reg.otf"),
+        url("font/Lato-Reg.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'light';
+  font-style: normal;
+     src: url("font/Lato-Lig.ttf"),
+        url("font/Lato-Lig.otf"),
+        url("font/Lato-Lig.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'dinbold';
+  font-style: normal;
+     src: url("font/dinnextltarabic-bold-webfont.ttf"),
+        url("font/dinnextltarabic-bold-webfont.otf"),
+        url("font/dinnextltarabic-bold-webfont.woff") format('woff');
+}
+@font-face {
+  font-family: 'dinregular';
+  font-style: normal;
+     src: url("font/dinnextltarabic-regular-webfont.ttf"),
+        url("font/dinnextltarabic-regular-webfont.otf"),
+        url("font/dinnextltarabic-regular-webfont.woff") format('woff');
+}
+@font-face {
+  font-family: 'dinlight';
+  font-style: normal;
+     src: url("font/dinnextltarabic-light-webfont.ttf"),
+        url("font/dinnextltarabic-light-webfont.otf"),
+        url("font/dinnextltarabic-light-webfont.woff") format('woff');
+}
+
+
+
+
